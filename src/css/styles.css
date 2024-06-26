@@ -515,8 +515,15 @@ button.navbar-toggler {
   display: block;
   transition: top 0.5s;
 }
+#navbar {
+  padding: 0.75rem 1rem;
+}
 #navbar .nav-link {
   color: #0A102F;
+}
+#navbar .d-flex {
+  align-items: center; 
+  gap: 15px;
 }
 #navbar .btn {
   font-size: 0.85rem;
@@ -568,7 +575,7 @@ button.navbar-toggler {
 }
 
 #navbar .container-fluid {
-  max-width: 1440px;
+  max-width: 1250px;
 }
 #navbar .container-fluid.home {
   justify-content: center;
@@ -584,7 +591,7 @@ button.navbar-toggler {
 
 /* Moble Menu Button */
 #nav-icon3 {
-  width: 30px;
+  width: 25px;
   height: 15px;
   position: relative;
   -webkit-transform: rotate(0deg);
@@ -601,9 +608,9 @@ button.navbar-toggler {
 #nav-icon3 span {
   display: block;
   position: absolute;
-  height: 4px;
+  height: 3.5px;
   width: 100%;
-  background: var(--gray-700);
+  background: #0A102F;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -1325,7 +1332,7 @@ footer #footerBottom p {
   }
   .navbar .d-flex {
     justify-content: center;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.75rem;
   }
   .navbar .nav-item:hover:after,
   #partnerNav .nav-item:hover:after {
@@ -1448,10 +1455,6 @@ footer #footerBottom p {
 }
 /* Large Phone */
 @media (max-width: 425px) {
-  #navbar #nav-icon3 {
-    width: 30px;
-    height: 15px;
-  }
   #footerLinks > .col-lg {
     min-width: 100% !important;
   }
