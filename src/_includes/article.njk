@@ -1,0 +1,197 @@
+---
+sitemap:
+  priority: 0.64
+layout: "base.njk"
+---
+
+<main id="articleMain" class="{% if tags.includes("blog") %} blog-article-main {% else %} news-article-main {% endif %}">
+  <section class="navbar navbar-expand-lg" id="articleNavbar">
+    <div class="container-fluid">
+      <a href="../" class="breadcrumb">
+        {% if tags.includes("blog") %}
+          Coinless Blog
+        {% else %}
+          Coinless Newsroom
+        {% endif %}
+      </a>
+      <div class="article-search-form">
+        <div id="search"></div>
+      </div>
+      <!-- Algolia Search Functionality -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+      <script type="text/javascript">
+        algoliasearchNetlify({
+          appId: 'CJDA6XE5LC',
+          apiKey: 'dc92fc8712601d3f7b32d15f30b8b3c3',
+          siteId: '9d34062b-9c68-46fe-a9da-60a2d715faaf',
+          branch: 'main',
+          selector: 'div#search',
+        });
+      </script>
+      <!-- End of Algolia Search Functionality -->
+    </div>
+  </section>
+  <section id="articleSectionBody">
+    <div class="container" id="articleMainContainer">
+      <h1 id="articleMainHeading">
+        {{ title }}
+      </h1>
+      <div class="by-line">
+        <img class="avatar" src="" alt="Avatar" class="img-fluid" data-author="{{ author }}"/>
+        <div>
+          <p id="postAuthor">By {{ author }}</p>
+          <p>{{ date | postDate }}</p>
+          {# <p>{{ tags }}</p> #}
+        </div>
+      </div>
+      <div>
+        <img src="{{ image }}" alt="{{ imageAlt }}" class="img-fluid article-photo"/>
+      </div>
+      <div class="article-body">{{ content | safe }}</div>
+      <div class="article-social-container">
+        {# <h2>Share This Article</h2>
+        <div class="article-social-media">
+          <a
+            href="https://www.facebook.com/sharer/sharer.php?u=https://www.coinlessmobile.com{{ page.url }}"
+            target="_blank">
+            <i class="fab fa-facebook-f" aria-hidden="true" title="Share on Facebook"></i>
+            <span class="sr-only">Share on Facebook</span>
+          </a>
+          <a href="#" target=" _blank" id="shareOnTwitter" data-url="{{ page.url }}" data-title="{{ title }}" onclick="getTwitterUrl()">
+            <i class="fab fa-twitter" aria-hidden="true" title="Share on Twitter"></i>
+            <span class="sr-only">Share on Twitter</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.coinlessmobile.com/{{ page.url }}"
+            target="_blank">
+            <i class="fab fa-linkedin" aria-hidden="true" title="Share on LinkedIn"></i>
+            <span class="sr-only">Share on LinkedIn</span>
+          </a>
+          <a href="mailto:?&subject=&cc=&bcc=&body=https://www.coinlessmobile.com/{{ page.url }}%0A">
+            <i class="fas fa-envelope" aria-hidden="true" title="Share via email"></i>
+            <span class="sr-only">Share via email</span>
+          </a>
+        </div>
+         <h2>Subscribe to Coinless's Newsletter</h2>
+        <form action="">
+          <input type="text" aria-label="Subscribe to Coinless's Newsletter" placeholder="Email">
+            <button class="btn btn-accent" type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div> #}
+        <div class="article-footer">
+          <h2>About the Author</h2>
+          <div class="author-bio-container">
+            <img class="avatar" src="" alt="Avatar" class="img-fluid" data-author="{{ author }}"/> 
+            <p class="author-bio-content" data-author="{{ author }}"></p>
+          </div>
+          <hr/>
+          <h2>About Coinless</h2>
+          <p>
+            Passionate technologists who believe our solution should reuse the technology you already have, synthesize how your business is doing and doesn’t require an act of congress to pay for it.
+          <p>
+            
+        </div>
+      </div>
+    </section>
+    {# Related articles #}
+    <section id="relatedStories">
+      <div class="container on-scroll-animation slide-up">
+        <h2>Related Articles</h2>
+        <div class="row article-row article-no-container">
+          {% set related_posts = [] %}
+          {% set excluded_tags = ['post',
+              'blog', 'featured', 'newsroom'] %}
+          {% if tags.includes("newsroom") %}
+            {% set articlePool = collections.newsroom %}
+          {% else %}
+            {% set articlePool = collections.blog %}
+          {% endif %}
+          {% for tag in tags %}
+            {% for post in articlePool %}
+              {% if tag in post.data.tags and tag not in excluded_tags and post.data.title != title %}
+                {% if post not in related_posts  and related_posts.length  < 3 %}
+                  {% set related_posts = (related_posts.push(post), related_posts) %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+          {% for post in articlePool %}
+            {% if post not in related_posts and post.data.title != title and related_posts.length  < 3 %}
+              {% set related_posts = (related_posts.push(post), related_posts) %}
+            {% endif %}
+          {% endfor %}
+          {% for post in related_posts  | reverse %}
+            <div class="col-lg-4 col-md-4 article-container">
+              <a class="article" href="{{ post.url }}">
+                <div class="article-img-container">
+                  <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="img-fluid" loading="lazy"/>
+                </div>
+                <div class="article-content">
+                  <p class="article-date">{{ post.data.date | postDate }}</p>
+                  <h4 class="article-title">
+                    {{ post.data.title }}
+                  </h4>
+                  <p class="article-preview">
+                    {{ post.data.description }}
+                  </p>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    <section id="moreStories">
+      <div class="container on-scroll-animation slide-up">
+        <h2 class="shrink-it">Latest Stories</h2>
+        <div class="row article-row article-no-container">
+          {% if tags.includes("newsroom") %}
+            {% set articlePool = collections.newsroom  | reverse %}
+          {% else %}
+            {% set articlePool = collections.blog  | reverse %}
+          {% endif %}
+          {%- for post in articlePool.slice(0,4) -%}
+            <div class="col-lg-6 col-md-6 article-container-horizontal article-container">
+              <a class="article article-horizontal" href="{{ post.url }}">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="article-img-container">
+                      <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="img-fluid" loading="lazy"/>
+                    </div>
+                  </div>
+                  <div class="col-sm-8">
+                    <div class="article-content">
+                      <p class="article-date">{{ post.data.date | postDate }}</p>
+                      <h4 class="article-title">
+                        {{ post.data.title }}
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </section>
+    {# <section class="newsLetter-section">
+      <div class="container newsletter-container">
+        <img src="/img/illustrations/car-wash-scene-5.png" alt="" class="img-fluid">
+          <h5>Keep up with the latest stories from Coinless</h5>
+          <form>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                aria-label="Enter your email to subscribe to Coinless's newsletter"
+                placeholder="Enter your email"/>
+              <button class="btn btn-accent btn-small" type="button">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </section> #}
+      </main>
