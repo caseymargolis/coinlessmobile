@@ -221,7 +221,6 @@ a:hover {
   font-size: 14px;
 }
 .nav-link {
-  text-transform: uppercase;
   font-family: var(--font-family-nav);
   font-weight: 600;
   color: var(--gray-600);
@@ -517,7 +516,7 @@ button.navbar-toggler {
   transition: top 0.5s;
 }
 #navbar .nav-link {
-  color: var(--primary);
+  color: #0A102F;
 }
 #navbar .btn {
   font-size: 0.85rem;
@@ -535,7 +534,7 @@ button.navbar-toggler {
   width: 100%;
 }
 .navbar li {
-  padding: 0 0.7rem;
+  padding: 0 1rem;
 }
 
 #partnerNav li {
@@ -1316,7 +1315,7 @@ footer #footerBottom p {
 /* Large Laptop */
 @media (max-width: 1315px) and (min-width: 1200px) {
   .navbar ul li {
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
   }
 }
 
@@ -1324,16 +1323,16 @@ footer #footerBottom p {
   .navbar ul li {
     text-align: center;
   }
+  .navbar .d-flex {
+    justify-content: center;
+    margin-bottom: 0.7rem;
+  }
   .navbar .nav-item:hover:after,
   #partnerNav .nav-item:hover:after {
     transform: scaleX(0);
   }
   .navbar .dropdown-item {
     text-align: center;
-  }
-  #navbar button {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
   #navbar .nav-link {
     padding-top: 0.8rem;
