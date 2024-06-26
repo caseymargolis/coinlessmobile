@@ -67,7 +67,7 @@
   --font-family-nav-bold: Montserrat Black;
   --font-family-bold: Montserrat Black; */
   --primary: #005894;
-  --secondary: #8194ec;
+  --secondary: #54595F;
   --highlight: #eeec46;
   --accent: #28d5cb;
   --cool-gray: #545860;
@@ -504,6 +504,7 @@ a:hover {
 }
 button.navbar-toggler {
   border: none;
+  padding: 0;
 }
 #navbar {
   background-color: var(--white);
@@ -1383,6 +1384,9 @@ footer #footerBottom p {
 
 /* Tablet */
 @media (max-width: 768px) {
+  .navbar-brand {
+    padding: 0;
+  }
   #omnixOffers .col-lg-4 h6 {
     font-size: 0.9rem;
   }
