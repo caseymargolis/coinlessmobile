@@ -9,6 +9,24 @@
           class="img-fluid img-nav"
         />
       </a>
+      <div class="compressed-btn-group">
+        <button
+          class="btn"
+          type="button"
+          data-toggle="modal"
+          data-target="#loginModal"
+        >
+          Log In
+        </button>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-toggle="modal"
+          data-target="#signupModal"
+        >
+          Sign Up
+        </button>
+      </div>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,16 +46,19 @@
       <div class="collapse navbar-collapse" id="mainNav">
         <ul id="navList" class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="https://calendly.com/everwash-sales/30min" target="_blank">Schedule Info Session</a>
+            <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/index#about-us">About Us</a>
+            <a class="nav-link" href="/onboarding">Onboarding</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/industries.html">Industries</a>
+            <a class="nav-link" href="/faq.html">FAQ</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact.html">Contact Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://portal.coinlessmobile.com/login">Login</a>
@@ -45,84 +66,28 @@
           <li class="nav-item">
             <a class="nav-link" href="#"  data-toggle="modal" data-target="#contact-omnixModal">Contact</a>
           </li>
-
-          {# <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >More</a
-            >
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#contact-omnixModal"
-                >Contact</a
-              >
-              <a class="dropdown-item" href="https://portal.coinlessmobile.com/login"
-                >Sign In</a
-              >
-              <a class="dropdown-item" href="/industries.html"
-                >Industries</a
-              >
-            </div>
-          </li> #}
         </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Login modal popup -->
-  <div class="modal fade" id="contact-omnixModal" tabindex="-1" aria-labelledby="Contact Us" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="row" id="contactSalesForm">
-            <div class="col-lg-5">
-              <img src="../img/omniX_logo_white_transparent_EWC.webp" alt="Omnix logo" class="img-fluid"/>
-              <h4>omniX Labs</h4>
-              <p>New York, NY 10004 USA</p>
-              <div>
-                <p>
-                  <a href="mailto:info@omnixlabs.com" class="fa fa-envelope">info@omnixlabs.com</a>
-                </p>
-              </div>
-              <div class="social-icons">
-                <p>
-                  <a href="https://www.linkedin.com/company/omnixlabs/" class="fa fa-linkedin" target="_blank"></a>
-                  <a href="https://www.youtube.com/channel/UCrlquejpqyZUfljbOyDbvhw" class="fa fa-youtube" target="_blank"></a>
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-7">
-              <div id="omnixModalHeader">
-                <div class="header-content">
-                  <button type="button" class="close d-none d-lg-block" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">
-                      <i class="fa fa-close"></i>
-                    </span>
-                  </button>
-                </div>
-              </div>
-              <div id="standard-form">
-                <form
-                  id="OmniXContactForm24"
-                  name="OmniX Contact Form 24"
-                  method="POST"
-                  data-form="formData"
-                  netlify
-                  netlify-honeypot="bot-field">
-                  <input type="hidden" name="Subject" data-email-subject="emailSubject" value="OmniX Contact Form 24 Submission"/>
-                  <input type="hidden" name="formName" value="OmniX Contact Form 24" aria-hidden="true"/>
-                  {% include 'contact-form.njk' %}
-                </form>
-              </div>  
-            </div>
-          </div>
+        <div class="d-flex">
+          <button
+            id="loginBtn"
+            class="btn mr-2"
+            type="button"
+            data-toggle="modal"
+            data-target="#loginModal"
+          >
+            Log In
+          </button>
+          <button
+            id="signupBtn"
+            class="btn btn-primary"
+            type="button"
+            data-toggle="modal"
+            data-target="#signupModal"
+          >
+            Sign Up
+          </button>
         </div>
       </div>
     </div>
-  </div>
-
+  </nav>
 </header>
