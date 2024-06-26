@@ -66,7 +66,7 @@
   /* --font-family-nav: Montserrat;
   --font-family-nav-bold: Montserrat Black;
   --font-family-bold: Montserrat Black; */
-  --primary: #141c52;
+  --primary: #005894;
   --secondary: #8194ec;
   --highlight: #eeec46;
   --accent: #28d5cb;
@@ -225,7 +225,7 @@ a:hover {
   font-family: var(--font-family-nav);
   font-weight: 600;
   color: var(--gray-600);
-  font-size: 0.85rem;
+  font-size: 1rem;
 }
 
 .brand-blue {
@@ -552,11 +552,11 @@ button.navbar-toggler {
 #partnerNav .nav-item:after {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 90%;
   transform: scaleX(0);
   height: 3px;
   bottom: 0;
-  left: 0;
+  left: 5%;
   background-color: var(--primary);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
@@ -1317,9 +1317,6 @@ footer #footerBottom p {
 @media (max-width: 1315px) and (min-width: 1200px) {
   .navbar ul li {
     padding: 0 0.5rem;
-  }
-  .navbar ul li a.nav-link {
-    font-size: 0.75rem;
   }
 }
 
