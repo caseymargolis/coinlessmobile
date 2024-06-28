@@ -1133,30 +1133,30 @@ button.navbar-toggler {
 #coinlessphoneSection .info-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 35px;
+  gap: 45px;
 }
 #coinlessphoneSection .icon-box {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 #coinlessphoneSection .fa {
   background: #005894;
-  padding: 10px;
   color: #fff;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 20px;
 }
 #coinlessphoneSection h6 {
-  font-size: 20px;
+  font-size: 18.5px;
   font-weight: 600;
   color: #414247;
 }
 #coinlessphoneSection p {
-  font-size: 13.5px;
+  font-size: 12.5px;
   line-height: 1.5em;
   color: #7a7a7a;
 }
@@ -1165,6 +1165,22 @@ button.navbar-toggler {
 }
 #coinlessphoneSection .img-content img {
   max-width: 85%;
+}
+@media (max-width: 991px) {
+  #coinlessphoneSection .info-content {
+    gap: 0px;
+  }
+  #coinlessphoneSection .img-content img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .col-sm-4 {
+    width: 100%;
+    flex: none;
+    max-width: 600px;
+    margin: auto;
+  }
 }
 
 
