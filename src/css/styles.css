@@ -1300,7 +1300,7 @@ footer #footerBottom p {
 }
 
 #footerLinks {
-  padding-bottom: 7.5%;
+  padding-bottom: 6.5%;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--gray-200);
 }
@@ -1386,6 +1386,9 @@ footer #footerBottom p {
   footer .img-footer {
     margin-bottom: 1rem;
     margin-top: 1rem;
+  }
+  #footerLinks ul p a{
+    margin-top: 1.5rem;
   }
   footer #footerAppStore .col-lg {
     justify-content: flex-start;
