@@ -255,8 +255,8 @@ a:hover {
 .gradient-text-01 {
   background: -webkit-linear-gradient(
     135deg,
-    var(--secondary) 3.57%,
-    var(--accent) 75%
+    #0A102F 5%,
+    var(--primary) 75%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -846,11 +846,15 @@ button.navbar-toggler {
   padding-top: max(6.5%, 4.5rem);
   padding-bottom: max(6.5%, 4.5rem);
 }
+#upgradeHero .row {
+  align-items: center;
+}
 #upgradeHero h1 {
   font-size: 75px;
   color: #0A102F;
-  font-weight: bold;
-  line-height: 1.15em;
+  font-weight: 800;
+  line-height: 1.125em;
+  margin-bottom: 30px;
 }
 #upgradeHero p {
   color: #0A102F;
@@ -860,9 +864,34 @@ button.navbar-toggler {
 #upgradeHero .btn-groups {
   display: flex;
   gap: 15px;
+  margin-top: 45px;
+}
+#upgradeHero .btn-groups .btn-primary {
+  border: solid 2.5px #005894;
+}
+#upgradeHero .btn-groups .btn-primary:hover {
+  border: solid 2.5px var(--secondary);
 }
 #upgradeHero .btn-groups .btn-outline {
-  border: solid 1px
+  border: solid 2.5px #005894;
+  color: #005894;
+}
+#upgradeHero .btn-groups .btn-outline:hover {
+  border: solid 2.5px var(--secondary);
+  color: #fff;
+  background: var(--secondary);
+}
+#upgradeHero a.icon-text {
+  display: flex;
+  gap: 7.5px;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+#upgradeHero a.icon-text span {
+  font-size: 1.05rem;
+  color: #0A102F;
+  line-height: 1.5em;
+  font-weight: 600;
 }
 #upgradeHero .col-lg-6 img {
   margin: 1rem 0;
