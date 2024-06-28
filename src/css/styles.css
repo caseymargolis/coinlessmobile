@@ -1201,7 +1201,9 @@ footer {
   background: #fff;
   font-size: 0.85rem;
 }
-
+footer .container {
+  max-width: 1250px;
+}
 .img-footer {
   height: auto;
   max-width: 150px;
