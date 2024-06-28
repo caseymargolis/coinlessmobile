@@ -1385,10 +1385,9 @@ footer #footerBottom p {
   }
   footer .img-footer {
     margin-bottom: 1rem;
-    margin-top: 1rem;
   }
-  #footerLinks ul p a{
-    margin-top: 1.5rem;
+  footer #about-coinless {
+    margin-bottom: 1.5rem;
   }
   footer #footerAppStore .col-lg {
     justify-content: flex-start;
