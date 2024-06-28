@@ -1090,6 +1090,25 @@ button.navbar-toggler {
   }
 }
 
+/* Partner Locations Section */
+#partnerlocationSection {
+  padding-top: max(4.5%, 3.5rem);
+  padding-bottom: max(4.5%, 3.5rem);
+}
+#partnerlocationSection .container {
+  max-width: 100%;
+}
+#partnerlocationSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+}
+#partnerlocationSection #map {
+  height: 600px;
+  width: 100%;
+}
+
 
 #omnixOffers {
   background: var(--primary);
