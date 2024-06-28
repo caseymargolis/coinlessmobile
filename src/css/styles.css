@@ -962,7 +962,7 @@ button.navbar-toggler {
   }
 }
 
-/* How It Works */
+/* How It Works Section */
 #howitworksSection {
   padding-top: max(5.5%, 4.5rem);
   padding-bottom: max(6.5%, 4.5rem);
@@ -1017,6 +1017,50 @@ button.navbar-toggler {
   #howitworksSection p {
     margin: 30px auto;
   }
+}
+
+
+/* Weather or Not Section */
+#weatherSection {
+  padding-top: max(4.5%, 4.5rem);
+  padding-bottom: max(4.5%, 4.5rem);
+}
+#weatherSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+}
+#weatherSection p {
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.65em;
+  text-align: center;
+  max-width: 950px;
+  margin: 30px auto 45px;
+}
+#weatherSection .image-box svg {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 25px;
+}
+#weatherSection .video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+#weatherSection .video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 575px) {
+
 }
 
 
