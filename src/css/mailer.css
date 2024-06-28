@@ -235,6 +235,9 @@ form a {
   color: #0A102F;
   text-decoration: none;
 }
+footer a.fa:hover {
+  color: #005894;
+}
 #contact-omnixModal a.fa:before, #omnixModal a.fa:before, footer a.fa:before {
   margin-right: 10px;
   font-family: 'FontAwesome';

@@ -1197,9 +1197,11 @@ button.navbar-toggler {
 *************************************/
 footer {
   color: #0A102FCC;
-  padding: max(5%, 3rem) 1rem;
+  padding: max(5%, 3rem) 1rem 0;
   background: #fff;
   font-size: 0.85rem;
+  border-top: 1px solid var(--gray-200);
+  font-weight: 500;
 }
 footer .container {
   max-width: 1250px;
@@ -1207,7 +1209,7 @@ footer .container {
 .img-footer {
   height: auto;
   max-width: 150px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 footer li {
@@ -1232,6 +1234,12 @@ footer ul li a:hover {
   color: #0A102F;
 }
 
+footer p.sub-header {
+  margin-top: 1.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
 
 #footerAppStore .col-lg-5 {
   justify-content: start;
@@ -1242,10 +1250,9 @@ footer ul li a:hover {
 }
 
 #footerLinks ul p {
-  text-transform: uppercase;
   font-weight: 600;
-  color: var(--gray-600);
-  font-size: 0.85rem;
+  color: #0A102F;
+  font-size: 1.075rem;
   margin-bottom: 0.5rem;
 }
 
@@ -1293,7 +1300,9 @@ footer #footerBottom p {
 }
 
 #footerLinks {
-  margin-bottom: 10%;
+  padding-bottom: 7.5%;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--gray-200);
 }
 
 /************************************ 
