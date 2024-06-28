@@ -1387,7 +1387,7 @@ footer #footerBottom p {
     margin-bottom: 1rem;
   }
   footer #about-coinless {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.95rem;
   }
   footer #footerAppStore .col-lg {
     justify-content: flex-start;
@@ -1498,21 +1498,21 @@ footer #footerBottom p {
   #footerBottom > .col-lg,
   footer #footerBottom a,
   footer #footerBottom p {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     text-align: center;
     justify-content: center !important;
   }
   #footerBottom > .col-lg {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.5rem;
   }
   footer #footerBottom p {
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.05rem;
   }
   footer li {
-    padding: 0.4rem 0;
+    padding: 0.35rem 0;
   }
   footer li:last-child {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
   footer #footerAppStore .col-lg-5 img {
     margin-bottom: 1rem;
