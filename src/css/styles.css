@@ -964,7 +964,7 @@ button.navbar-toggler {
 
 /* How It Works */
 #howitworksSection {
-  padding-top: max(6.5%, 4.5rem);
+  padding-top: max(5.5%, 4.5rem);
   padding-bottom: max(6.5%, 4.5rem);
   background: #FCFAFF;
 }
@@ -973,24 +973,36 @@ button.navbar-toggler {
   color: #0A102F;
   font-weight: 800;
   line-height: 1.125em;
-  margin-bottom: 30px;
+  text-align: center;
 }
 #howitworksSection p {
   color: #0A102F;
   font-size: 18px;
-  line-height: 1.45em;
+  line-height: 1.65em;
+  text-align: center;
+  max-width: 950px;
+  margin: 30px auto 45px;
 }
 #howitworksSection .image-box {
-  background: rgba(244, 246, 255, 0.35);
-  border: 1px solid rgba(30, 80, 255, 0.15);
+  background: #fff;
+  border: 2.5px solid #0A102F;
   border-radius: 10px;
-  padding: 10%;
-  margin-bottom: 8%;
+  padding: 30px;
+  text-align: center;
+}
+#howitworksSection .image-box svg {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 30px;
 }
 #howitworksSection h5 {
   margin-bottom: 3.5%;
-  font-size: 32.5px;
-  font-weight: bold;
+  font-size: 23.5px;
+  font-weight: 600;
+}
+#howitworksSection .image-box p {
+  text-align: left;
+  margin: auto;
 }
 
 
