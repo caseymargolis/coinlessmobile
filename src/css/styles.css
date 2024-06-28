@@ -836,7 +836,7 @@ button.navbar-toggler {
 /************************************ 
 *********** HOMEPAGE *************
 *************************************/
-html, body {
+#coinlessBody {
   overflow-x: hidden;
 }
 #coinlessBody .container {
