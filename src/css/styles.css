@@ -846,8 +846,8 @@ button.navbar-toggler {
 
 /* Hero Section */
 #upgradeHero {
-  padding-top: max(6.5%, 4.5rem);
-  padding-bottom: max(6.5%, 4.5rem);
+  padding-top: max(6.5%, 3.5rem);
+  padding-bottom: max(6.5%, 3.5rem);
 }
 #upgradeHero .row {
   align-items: center;
@@ -964,8 +964,8 @@ button.navbar-toggler {
 
 /* How It Works Section */
 #howitworksSection {
-  padding-top: max(5.5%, 4.5rem);
-  padding-bottom: max(6.5%, 4.5rem);
+  padding-top: max(5.5%, 3.5rem);
+  padding-bottom: max(6.5%, 3.5rem);
   background: #FCFAFF;
 }
 #howitworksSection h3 {
@@ -1022,8 +1022,8 @@ button.navbar-toggler {
 
 /* Weather or Not Section */
 #weatherSection {
-  padding-top: max(4.5%, 4.5rem);
-  padding-bottom: max(4.5%, 4.5rem);
+  padding-top: max(4.5%, 3.5rem);
+  padding-bottom: max(4.5%, 3.5rem);
 }
 #weatherSection .reverse-row {
   margin-top: 75px;
@@ -1073,8 +1073,22 @@ button.navbar-toggler {
   width: 100%;
   height: 100%;
 }
+@media (max-width: 991px) {
+  #weatherSection .reverse-row {
+    flex-direction: column-reverse;
+    margin-top: 45px;
+  }
+  #weatherSection h3 {
+    margin-top: 30px;
+  }
+}
 @media (max-width: 575px) {
-
+  #weatherSection h3 {
+    font-size: 20px;
+  }
+  #weatherSection ul.icon-text svg {
+    min-width: 20px;
+  }
 }
 
 
