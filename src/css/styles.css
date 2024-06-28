@@ -1025,25 +1025,40 @@ button.navbar-toggler {
   padding-top: max(4.5%, 4.5rem);
   padding-bottom: max(4.5%, 4.5rem);
 }
+#weatherSection .reverse-row {
+  margin-top: 75px;
+}
 #weatherSection h3 {
   font-size: 45px;
   color: #0A102F;
   font-weight: 800;
   line-height: 1.125em;
-  text-align: center;
 }
 #weatherSection p {
   color: #0A102F;
   font-size: 18px;
   line-height: 1.65em;
-  text-align: center;
-  max-width: 950px;
-  margin: 30px auto 45px;
+  margin: 30px auto 15px;
 }
-#weatherSection .image-box svg {
-  width: 75px;
-  height: 75px;
-  margin-bottom: 25px;
+#weatherSection ul.icon-text {
+  list-style: none;
+  margin-top: 20px;
+}
+#weatherSection ul.icon-text li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #0A102F;
+  font-size: 17.5px;
+  font-weight: 600;
+  line-height: 1.25em;
+}
+#weatherSection ul.icon-text svg path {
+  fill: #0A102F;
+}
+#weatherSection .btn {
+  margin-top: 30px;
 }
 #weatherSection .video-container {
   position: relative;
@@ -1051,7 +1066,6 @@ button.navbar-toggler {
   height: 0;
   overflow: hidden;
 }
-
 #weatherSection .video-container iframe {
   position: absolute;
   top: 0;
