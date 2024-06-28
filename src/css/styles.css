@@ -836,7 +836,9 @@ button.navbar-toggler {
 /************************************ 
 *********** HOMEPAGE *************
 *************************************/
-
+html, body {
+  overflow-x: hidden;
+}
 #coinlessBody .container {
   max-width: 1250px
 }
@@ -915,6 +917,40 @@ button.navbar-toggler {
   max-width: 81.5px;
   border-radius: 50%;
   animation: float 2.5s infinite alternate;
+}
+@media (max-width: 991px) {
+  #upgradeHero .row {
+    text-align: center;
+  }
+  #upgradeHero h1 {
+    font-size: 50px;
+  }
+  #upgradeHero .btn-groups {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #upgradeHero a.icon-text {
+    justify-content: center;
+    text-align: left;
+  }
+  #upgradeHero .img-content {
+    max-width: 615px;
+    width: 87.5%;
+    margin: 45px auto 0;
+  }
+  #upgradeHero .img-content svg {
+    right: -20px;
+    max-width: 75px;
+  }
+  #upgradeHero .img-content .team-1 {
+    top: 5.5%;
+    max-width: 65px;
+  }
+  #upgradeHero .img-content .team-2 {
+    top: auto;
+    bottom: 10%;
+    max-width: 65px;
+  }
 }
 @keyframes float {
   0% {
