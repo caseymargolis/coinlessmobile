@@ -893,10 +893,37 @@ button.navbar-toggler {
   line-height: 1.5em;
   font-weight: 600;
 }
-#upgradeHero .col-lg-6 img {
-  margin: 1rem 0;
+#upgradeHero .img-content svg {
+  position: absolute;
+  right: -25px;
+  top: -35px;
+  z-index: -1;
+  animation: float 2.5s infinite alternate;
 }
-
+#upgradeHero .img-content .team-1 {
+  position: absolute;
+  top: 43.5%;
+  left: -2.5%;
+  max-width: 81.5px;
+  border-radius: 50%;
+  animation: float 2.5s infinite alternate;
+}
+#upgradeHero .img-content .team-2 {
+  position: absolute;
+  top: 60%;
+  right: -1.5%;
+  max-width: 81.5px;
+  border-radius: 50%;
+  animation: float 2.5s infinite alternate;
+}
+@keyframes float {
+  0% {
+      transform: translate(0, 0);
+  }
+  100% {
+      transform: translate(2.5px, 1.5px);
+  }
+}
 
 
 #omnixOffers {
