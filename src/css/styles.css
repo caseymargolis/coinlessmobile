@@ -1028,6 +1028,9 @@ button.navbar-toggler {
 #weatherSection .reverse-row {
   margin-top: 75px;
 }
+#weatherSection .video-content video {
+  width: 100%;
+}
 #weatherSection h3 {
   font-size: 45px;
   color: #0A102F;
@@ -1060,19 +1063,6 @@ button.navbar-toggler {
 #weatherSection .btn {
   margin-top: 30px;
 }
-#weatherSection .video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 ratio */
-  height: 0;
-  overflow: hidden;
-}
-#weatherSection .video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 @media (max-width: 991px) {
   #weatherSection .reverse-row {
     flex-direction: column-reverse;
@@ -1084,7 +1074,8 @@ button.navbar-toggler {
 }
 @media (max-width: 575px) {
   #weatherSection h3 {
-    font-size: 20px;
+    font-size: 35px;
+    margin-top: 20px;
   }
   #weatherSection ul.icon-text svg {
     min-width: 20px;
