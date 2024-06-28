@@ -504,7 +504,8 @@ button.navbar-toggler {
 }
 #navbar {
   background-color: var(--white);
-  border-bottom: 1px solid var(--gray-200);
+  /* border-bottom: 1px solid var(--gray-200); */
+  box-shadow: 0px 1.5px 10px 0px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   z-index: 100;
@@ -961,6 +962,37 @@ button.navbar-toggler {
   }
 }
 
+/* How It Works */
+#howitworksSection {
+  padding-top: max(6.5%, 4.5rem);
+  padding-bottom: max(6.5%, 4.5rem);
+  background: #FCFAFF;
+}
+#howitworksSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  margin-bottom: 30px;
+}
+#howitworksSection p {
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.45em;
+}
+#howitworksSection .image-box {
+  background: rgba(244, 246, 255, 0.35);
+  border: 1px solid rgba(30, 80, 255, 0.15);
+  border-radius: 10px;
+  padding: 10%;
+  margin-bottom: 8%;
+}
+#howitworksSection h5 {
+  margin-bottom: 3.5%;
+  font-size: 32.5px;
+  font-weight: bold;
+}
+
 
 #omnixOffers {
   background: var(--primary);
@@ -1012,45 +1044,6 @@ button.navbar-toggler {
   margin-top: 30px;
 }
 
-#omnixHow .col-lg-4 > div {
-  background: rgba(244, 246, 255, 0.35);
-  border: 1px solid rgba(30, 80, 255, 0.15);
-  border-radius: 10px;
-  padding: 10%;
-  margin-bottom: 8%;
-}
-
-#omnixHow h3 {
-  margin-bottom: 3.5%;
-  font-size: 32.5px;
-  font-weight: bold;
-}
-
-#omnixHow p {
-  margin-bottom: 3rem;
-}
-#omnixHow .images-group {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-#omnixHow .images-group .image-box {
-  padding: 30px;
-  max-width: 200px;
-}
-#omnixHow .box-shadow {
-  margin-top: 5%;
-  box-shadow: 0px 0px 30px 0px rgba(200, 200, 200, 0.5);
-}
-#omnixHow .box-shadow .col-lg-6 {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  gap: 30px;
-  padding: 45px;
-  justify-content: flex-start;
-}
 
 #omnixInsights h3 {
   margin-bottom: 3.5%;
@@ -1112,86 +1105,7 @@ button.navbar-toggler {
   margin-top: 20px;
 }
 
-#omnixHow .publications {
-  max-width: 1050px!important;
-}
-#omnixHow .publications p.header-content {
-  max-width: 500px;
-}
-#omnixHow .publications .row {
-  margin-bottom: 75px;
-}
-@media (max-width: 767px) {
-  #omnixHow .publications .row {
-    margin-bottom: 15px;
-  }
-  #omnixHow .publications .col-sm-6 {
-    flex: none;
-    max-width: 100%;
-    margin-bottom: 30px;
-  }
-}
-#omnixHow .publications .image-box {
-  max-width: 450px;
-  box-shadow: 0px 0px 30px 0px rgba(200, 200, 200, 0.5);
-  height: 100%;
-  position: relative;
-}
-#omnixHow .publications .image-box.col_1 {
-  float: left;
-}
-#omnixHow .publications .image-box.col_2 {
-  float: right;
-}
-@media (max-width: 767px) {
-  #omnixHow .publications .row {
-    margin-bottom: 15px;
-  }
-  #omnixHow .publications .col-sm-6 {
-    flex: none;
-    max-width: 100%;
-    margin-bottom: 30px;
-  }
-  #omnixHow .publications .image-box {
-    float: none;
-    max-width: 100%;
-  }
-  #omnixHow .publications .image-box img {
-    width: 100%;
-  }
-}
-#omnixHow .publications .image-box .info-box {
-  padding: 25px 17.5px 17.5px;
-}
-#omnixHow .publications .image-box .info-box h5 {
-  margin-bottom: 15px;
-}
-#omnixHow .publications .image-box .info-box p {
-  margin-bottom: 50px;
-}
-#omnixHow .publications .image-box .info-box a.labs {
-  position: absolute;
-  left: 17.5px;
-  bottom: 17.5px;
-  text-decoration: underline;
-  color: #141C52;
-}
-#omnixHow .publications .image-box .info-box a.article_info {
-  position: absolute;
-  right: 17.5px;
-  bottom: 17.5px;
-  text-decoration: underline;
-  color: #141C52;
-  opacity: 0.5;
-}
-#omnixHow .publications .image-box .info-box a.article_info:hover {
-  opacity: 1;
-}
-#omnixHow .publications div.read_more_content a {
-  text-decoration: underline;
-  color: #141C52;
-  margin-left: 15px;
-}
+
 
 
 /************************************ 
@@ -1453,23 +1367,6 @@ footer #footerBottom p {
   #signupModal .modal-body p,
   #loginModal .modal-body p {
     font-size: 0.9rem;
-  }
-  #omnixHow .col-lg-4 .text-center {
-    min-width: 100% !important;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 5%;
-  }
-  #omnixHow .col-lg-4 .text-center h6 {
-    margin-bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
-  #omnixHow .col-lg-4 .text-center .img-fluid {
-    width: 30%;
-    padding-bottom: 0;
-    margin-right: 5%;
   }
   #omnixInsights .container {
     width: 100%;
