@@ -1196,16 +1196,15 @@ button.navbar-toggler {
 *********** FOOTER *************
 *************************************/
 footer {
-  color: var(--white);
+  color: #0A102FCC;
   padding: max(5%, 3rem) 1rem;
-  background: #0A0A32;
+  background: #fff;
   font-size: 0.85rem;
 }
 
 .img-footer {
   height: auto;
-  margin-top: -17.5%;
-  max-width: 245px;
+  max-width: 150px;
   margin-bottom: 1.5rem;
 }
 
@@ -1216,12 +1215,21 @@ footer li {
 }
 
 footer a {
-  color: var(--white);
+  color: #005894;
 }
 
 footer a:hover {
-  color: var(--gray-500);
+  color: #0A102F;
 }
+
+footer ul li a {
+  color: #0A102FCC;
+}
+
+footer ul li a:hover {
+  color: #0A102F;
+}
+
 
 #footerAppStore .col-lg-5 {
   justify-content: start;
@@ -1270,7 +1278,7 @@ footer #footerBottom a i {
 
 footer #footerBottom a,
 footer #footerBottom p {
-  color: var(--gray-500);
+  color: #0A102FCC;
   font-size: 0.7rem;
 }
 

@@ -232,7 +232,7 @@ form a {
 
 #contact-omnixModal a.fa, #omnixModal a.fa, footer a.fa {
   font-family: var(--font-family-body);
-  color: var(--white);
+  color: #0A102F;
   text-decoration: none;
 }
 #contact-omnixModal a.fa:before, #omnixModal a.fa:before, footer a.fa:before {
