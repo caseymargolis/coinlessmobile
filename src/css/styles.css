@@ -1124,7 +1124,7 @@ button.navbar-toggler {
 /* Coinless Phone Section */
 #coinlessphoneSection {
   padding-top: max(6.5%, 3.5rem);
-  padding-bottom: max(6.5%, 3.5rem);
+  padding-bottom: max(4.5%, 3.5rem);
   background: #FCFAFF;
 }
 #coinlessphoneSection .row {
@@ -1151,12 +1151,12 @@ button.navbar-toggler {
   font-size: 20px;
 }
 #coinlessphoneSection h6 {
-  font-size: 18.5px;
+  font-size: 20px;
   font-weight: 600;
   color: #414247;
 }
 #coinlessphoneSection p {
-  font-size: 12.5px;
+  font-size: 13.5px;
   line-height: 1.5em;
   color: #7a7a7a;
 }
