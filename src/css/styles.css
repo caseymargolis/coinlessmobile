@@ -172,7 +172,7 @@ body {
   font-family: var(--font-family-body);
   letter-spacing: 0.05rem;
   height: 100%;
-  margin-top: 75px;
+  /* margin-top: 75px; */
 }
 
 .d-c {
@@ -503,15 +503,16 @@ button.navbar-toggler {
   padding: 0;
 }
 #navbar {
-  background-color: var(--white);
-  /* border-bottom: 1px solid var(--gray-200); */
-  box-shadow: 0px 1.5px 10px 0px rgba(0, 0, 0, 0.1);
+  /* background-color: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+  box-shadow: 0px 1.5px 10px 0px rgba(0, 0, 0, 0.1); */
   position: fixed;
   top: 0;
   z-index: 100;
   width: 100%;
   display: block;
   transition: top 0.5s;
+  background: transparent
 }
 #navbar {
   padding: 0.75rem 1rem;
@@ -846,7 +847,7 @@ button.navbar-toggler {
 
 /* Hero Section */
 #upgradeHero {
-  padding-top: max(6.5%, 3.5rem);
+  padding-top: max(10.5%, 7.5rem);
   padding-bottom: max(6.5%, 3.5rem);
 }
 #upgradeHero .row {
@@ -1577,7 +1578,7 @@ button.navbar-toggler {
 
 /* Hero Section */
 #onboardingHero {
-  padding-top: max(7.5%, 4.5rem);
+  padding-top: max(11.5%, 8.5rem);
   padding-bottom: max(7.5%, 4.5rem);
   background-image: url(/img/onboarding-bg.png);
   background-repeat: no-repeat;
@@ -1597,12 +1598,15 @@ button.navbar-toggler {
   font-size: 18px;
   line-height: 1.65em;
   text-align: center;
+  margin: 0;
 }
 #onboardingHero p a {
   color: #005894;
 }
 #onboardingHero p i {
   margin: 0 10px;
+  font-size: 85%;
+  font-weight: bold;
 }
 #onboardingHero p strong {
   color: #005894;
@@ -1610,7 +1614,8 @@ button.navbar-toggler {
 }
 @media (max-width: 575px) {
   #onboardingHero h2 {
-    font-size: 35px;
+    font-size: 45px;
+    margin-bottom: 30px;
   }  
 }   
 
