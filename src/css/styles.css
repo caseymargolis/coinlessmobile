@@ -1619,9 +1619,9 @@ button.navbar-toggler {
 }
  
 /* Onboarding FAQ Section */
-#standardfaqSection {
-  padding-top: max(6.5%, 3.5rem);
-  padding-bottom: max(6.5%, 3.5rem);
+#onboardingfaqSection {
+  padding-top: max(5.5%, 3.5rem);
+  padding-bottom: max(4.5%, 2.5rem);
 }
 
 
