@@ -864,22 +864,22 @@ button.navbar-toggler {
   font-size: 18px;
   line-height: 1.65em;
 }
-#upgradeHero .btn-group {
+#upgradeHero .group-btn {
   display: flex;
   gap: 15px;
   margin-top: 45px;
 }
-#upgradeHero .btn-group .btn-primary {
+#upgradeHero .group-btn .btn-primary {
   border: solid 2.5px #005894;
 }
-#upgradeHero .btn-group .btn-primary:hover {
+#upgradeHero .group-btn .btn-primary:hover {
   border: solid 2.5px var(--secondary);
 }
-#upgradeHero .btn-group .btn-outline {
+#upgradeHero .group-btn .btn-outline {
   border: solid 2.5px #005894;
   color: #005894;
 }
-#upgradeHero .btn-group .btn-outline:hover {
+#upgradeHero .group-btn .btn-outline:hover {
   border: solid 2.5px var(--secondary);
   color: #fff;
   background: var(--secondary);
@@ -926,7 +926,7 @@ button.navbar-toggler {
   #upgradeHero h1 {
     font-size: 50px;
   }
-  #upgradeHero .btn-group {
+  #upgradeHero .group-btn {
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -1509,6 +1509,7 @@ button.navbar-toggler {
   background-image: url(/img/app-background.png);
   background-repeat: no-repeat;
   background-position: left top;
+  background-size: 10%;
   position: relative;
 }
 #mobileappSection h3 {
@@ -1520,17 +1521,19 @@ button.navbar-toggler {
   margin-bottom: 45px;
   width: 100%;
 }
-#mobileappSection .btn-group {
+#mobileappSection .group-btn {
   display: flex;
   width: 100%;
   justify-content: center;
   gap: 20px;
+}
+#mobileappSection .group-btn a {
   z-index: 1;
 }
-#mobileappSection .btn-group img.app-store {
+#mobileappSection .group-btn img.app-store {
   width: 200px;
 }
-#mobileappSection .btn-group img.google-play {
+#mobileappSection .group-btn img.google-play {
   width: 210px;
 }
 #mobileappSection img.mobile-app-background {
@@ -1554,12 +1557,12 @@ button.navbar-toggler {
     max-width: 450px;
     margin: 0 auto 20px;
   }
-  #mobileappSection .btn-group {
+  #mobileappSection .group-btn {
     display: grid;
     gap: 10px;
   }
-  #mobileappSection .btn-group img {
-    width: 250px;
+  #mobileappSection .group-btn img {
+    width: 200px!important;
   }
   #mobileappSection img.mobile-app-background {
     width: 30%;
