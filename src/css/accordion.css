@@ -12,6 +12,12 @@
   padding: 1.3rem 1.7rem 1.3rem 0;
   cursor: pointer;
 }
+#standardfaqSection .card .card-header a {
+  color: #0A102F;
+}
+#standardfaqSection .card .card-header a:hover {
+  color: #005894;
+}
 #standardfaqSection .card-body {
   padding: 0.5rem 0;
 }
@@ -34,7 +40,7 @@
   color: #0A102F;
 }
 #standardfaqSection ol {
-  padding-left: 25px;
+  padding-left: 30px;
 }
 
 /* Horizontal line */
