@@ -1470,14 +1470,14 @@ button.navbar-toggler {
   max-width: 500px;
   margin-left: auto;
 }
-#newsletterSection .input {
+#newsletterSection .form-group input {
   border-radius: 0;
   height: 55px;
   margin: 0;
   border: solid 1px #eaeced !important;
   background: #fff !important;
 }
-#newsletterSection .btn {
+#newsletterSection .form-group .btn {
   border-radius: 0;
   height: 55px;
 }
