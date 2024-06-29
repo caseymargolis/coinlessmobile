@@ -1019,7 +1019,6 @@ button.navbar-toggler {
   }
 }
 
-
 /* Weather or Not Section */
 #weatherSection {
   padding-top: max(4.5%, 3.5rem);
@@ -1182,6 +1181,65 @@ button.navbar-toggler {
     margin: auto;
   }
 }
+
+/* Tech Specs Section */
+#techspecsSection {
+  padding-top: max(5.5%, 3.5rem);
+  padding-bottom: max(6.5%, 3.5rem);
+  background: #FCFAFF;
+}
+#techspecsSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+}
+#techspecsSection p {
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.65em;
+  text-align: center;
+  margin: 30px auto 45px;
+}
+#techspecsSection .info-box {
+  background: #fff;
+  border: 2.5px solid #0A102F;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  transition: 0.5s;
+}
+#techspecsSection .info-box:hover {
+  box-shadow: 10px 10px 0px 0px #0A102F;
+}
+#techspecsSection h5 {
+  font-size: 21.5px;
+  font-weight: 600;
+  color: #38393A;
+}
+#techspecsSection .info-box p {
+  text-align: left;
+  color: #7a7a7a;
+  margin: 15px auto 0;
+  font-size: 17.5px;
+}
+#techspecsSection .info-box p span.sub-header {
+  color: #0a0c31;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  #techspecsSection .row {
+    gap: 20px;
+  }
+  #techspecsSection h3 {
+    font-size: 35px;
+  }
+  #techspecsSection p {
+    margin: 30px auto;
+  }
+}
+
 
 
 #omnixInsights h3 {
