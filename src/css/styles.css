@@ -1503,12 +1503,13 @@ button.navbar-toggler {
 
 /* Download Coinless mobile App Section */
 #mobileappSection {
-  padding-top: max(5%, 3.5rem);
-  padding-bottom: max(5%, 3.5rem);
+  padding-top: max(5.5%, 3.5rem);
+  padding-bottom: max(5.5%, 3.5rem);
   background: #005894;
   background-image: url(/img/app-background.png);
   background-repeat: no-repeat;
   background-position: left top;
+  position: relative;
 }
 #mobileappSection h3 {
   font-size: 45px;
@@ -1517,19 +1518,51 @@ button.navbar-toggler {
   line-height: 1.125em;
   text-align: center;
   margin-bottom: 45px;
+  width: 100%;
 }
 #mobileappSection .btn-group {
   display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  z-index: 1;
+}
+#mobileappSection .btn-group img.app-store {
+  width: 200px;
+}
+#mobileappSection .btn-group img.google-play {
+  width: 210px;
 }
 #mobileappSection img.mobile-app-background {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 13.5%;
+}
+@media (max-width: 991px) {
+  #mobileappSection h3 {
+    max-width: 500px;
+    margin: 0 auto 30px;
+  }
 }
 @media (max-width: 575px) {
+  #mobileappSection {
+    background-size: 20%;
+  }
   #mobileappSection h3 {
     font-size: 35px;
-    margin-bottom: 30px;
+    max-width: 450px;
+    margin: 0 auto 20px;
+  }
+  #mobileappSection .btn-group {
+    display: grid;
+    gap: 10px;
+  }
+  #mobileappSection .btn-group img {
+    width: 250px;
+  }
+  #mobileappSection img.mobile-app-background {
+    width: 30%;
   }
 }
 
