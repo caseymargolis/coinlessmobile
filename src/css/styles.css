@@ -1091,7 +1091,7 @@ button.navbar-toggler {
 
 /* Partner Locations Section */
 #partnerlocationSection {
-  padding-top: max(3.5%, 2.5rem);
+  padding-top: max(3.5%, 1.5rem);
 }
 #partnerlocationSection .container {
   max-width: 100%;
@@ -1239,66 +1239,62 @@ button.navbar-toggler {
   }
 }
 
-
-
-#omnixInsights h3 {
-  margin-bottom: 3.5%;
-  font-size: 32.5px;
-  font-weight: bold;
+/* Testimonial Section */
+#testimonialSection {
+  padding-top: max(3.5%, 1.5rem);
+  padding-bottom: max(6.5%, 3.5rem);
+  background: #FCFAFF;
 }
-#omnixInsights {
-  background: var(--variant-periwinkle-01);
+#testimonialSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
 }
-#omnixInsights .container {
-  overflow: hidden;
+#testimonialSection p {
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.65em;
+  text-align: center;
+  margin: 30px auto 45px;
 }
-#omnixInsights .row {
-  margin-left: -50px;
-  margin-right: -50px;
-  overflow: hidden;
-}
-#omnixInsights .col-lg-5 {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-}
-#omnixInsights .team_content {
-  max-width: 750px;
-  margin: auto;
-}
-#omnixInsights .team_content .btn {
-  margin-top: 30px;
-}
-
-@media (max-width: 991px) {
-  #omnixInsights .row:nth-child(3) {
-    flex-direction: column-reverse;
-  }
-  #omnixInsights .col-lg-5 {
-    display: flex;
-    justify-content: start;
-    margin-top: 15px;
-  }
-}
-
-#omnixInsights .row > div {
-  padding-right: 50px;
-  padding-left: 50px;
-}
-#omnixInsights img {
-  filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.1));
+#testimonialSection .info-box {
+  border: 2.5px solid #0A102F;
   border-radius: 10px;
-  margin-bottom: 10%;
+  padding: 15px;
+  text-align: left;
+  transition: 0.5s;
+  height: 100%;
 }
-
-#omnixInsights ul {
-  padding-left: 30px;
+#testimonialSection .info-box:hover {
+  box-shadow: 10px 10px 0px 0px #0A102F;
 }
-#OmniXContactForm24 .input-row {
-  display: block;
+#testimonialSection h5 {
+  font-size: 21.5px;
+  font-weight: 600;
+  color: #38393A;
 }
-#OmniXContactForm24 .input-row .btn {
-  margin-top: 20px;
+#testimonialSection .info-box p {
+  text-align: left;
+  color: #7a7a7a;
+  margin: 20px auto 10px;
+  font-size: 13.5px;
+}
+#testimonialSection .info-box p span.sub-header {
+  color: #0a0c31;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  #testimonialSection .row {
+    gap: 20px;
+  }
+  #testimonialSection h3 {
+    font-size: 35px;
+  }
+  #testimonialSection p {
+    margin: 30px auto;
+  }
 }
 
 
@@ -1500,17 +1496,6 @@ footer #footerBottom p {
 
 /* Laptop */
 @media (max-width: 992px) {
-  #omnixInsights .col-lg-8 {
-    padding-left: 3%;
-  }
-  #omnixInsights .container {
-    width: 80%;
-  }
-  #omnixInsights .col-lg-4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   footer .img-footer {
     margin-bottom: 1rem;
   }
@@ -1563,9 +1548,6 @@ footer #footerBottom p {
   #signupModal .modal-body p,
   #loginModal .modal-body p {
     font-size: 0.9rem;
-  }
-  #omnixInsights .container {
-    width: 100%;
   }
   footer #footerAppStore .col-lg .col-sm-6 {
     width: 50%;
@@ -1767,7 +1749,7 @@ footer #footerBottom p {
   text-align: center;
   margin-top: -10px;
 }
-#omnixModal #standard-form, #contact-omnixModal #standard-form {
+#coinlessModal #standard-form, #contact-omnixModal #standard-form {
   text-align: center;
   margin-top: 15px;
 }
