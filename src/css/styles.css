@@ -1221,7 +1221,7 @@ button.navbar-toggler {
 #techspecsSection .info-box p {
   text-align: left;
   color: #7a7a7a;
-  margin: 15px auto 0;
+  margin: 20px auto 10px;
   font-size: 13.5px;
 }
 #techspecsSection .info-box p span.sub-header {
