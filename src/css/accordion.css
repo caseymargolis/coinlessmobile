@@ -1,74 +1,49 @@
-***** FAQ *****/
-.card-body {
-  padding: 0.5rem 0;
-}
-#partnerFaq .card,
-#attendantFaq .card,
-.accordion-custom .card {
-  border: none;
-  border-bottom: 1px solid var(--gray-400) !important;
-}
-#standardfaqSection .card {
+
+/* ***** FAQ ***** */
+#faqStandard .card {
   border: none;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--gray-400);
 }
-#partnerFaq .card .card-header,
-#standardfaqSection .card .card-header,
-#attendantFaq .card .card-header,
-.accordion-custom .card .card-header {
+#faqStandard .card .card-header {
   border: none;
   background: var(--white);
   padding: 1.3rem 1.7rem 1.3rem 0;
   cursor: pointer;
 }
-#partnerFaq .card .card-body p,
-#standardfaqSection .card .card-body p,
-#attendantFaq .card .card-body p,
-.accordion-custom .card .card-body p {
+#faqStandard .card .card-header a {
+  color: #0A102F;
+}
+#faqStandard .card .card-header a:hover {
+  color: #005894;
+}
+#faqStandard .card-body {
+  padding: 0.5rem 0;
+}
+#faqStandard .card .card-body p {
   margin-bottom: 1.5rem;
 }
-#partnerFaq .card .card-body img,
-#standardfaqSection .card .card-body img,
-#attendantFaq .card .card-body img,
-.accordion-custom .card .card-body img {
+#faqStandard .card .card-body img {
   margin-bottom: 2rem;
 }
-#partnerFaq .card .card-header h6,
-#attendantFaq .card .card-header h6,
-.accordion-custom .card .card-header h6 {
-  display: block;
-  position: relative;
-  margin-bottom: 10%;
-  font-weight: 500;
-  line-height: 1.5;
-}
-#standardfaqSection .card .card-header h6 {
+#faqStandard .card .card-header h6 {
   display: block;
   position: relative;
   margin-bottom: 10%;
   font-size: 1.3rem;
 }
-#partnerFaq a,
-#attendantFaq a,
-.accordion-custom a {
-  color: var(--black);
-  font-family: var(--font-family-body);
-}
-#standardfaqSection .card-body a {
+#faqStandard .card-body a {
   color: #005894;
 }
-#standardfaqSection .card-bodya:hover {
+#faqStandard .card-body a:hover {
   color: #0A102F;
 }
-#standardfaqSection ol {
-  padding-left: 25px;
+#faqStandard ol {
+  padding-left: 30px;
 }
+
 /* Horizontal line */
-#partnerFaq .collapsible-link::before,
-#standardfaqSection .collapsible-link::before,
-#attendantFaq .collapsible-link::before,
-.accordion-custom .collapsible-link::before {
+#faqStandard .collapsible-link::before {
   content: "";
   width: 14px;
   height: 2px;
@@ -79,15 +54,12 @@
   display: block;
   transition: all 0.3s;
 }
-#standardfaqSection .collapsible-link::before {
+#faqStandard .collapsible-link::before {
   right: -1rem;
 }
 
 /* Vertical line */
-#partnerFaq .collapsible-link::after,
-#standardfaqSection .collapsible-link::after,
-#attendantFaq .collapsible-link::after,
-.accordion-custom .collapsible-link::after {
+#faqStandard .collapsible-link::after {
   content: "";
   width: 2px;
   height: 14px;
@@ -98,20 +70,13 @@
   display: block;
   transition: all 0.3s;
 }
-#standardfaqSection .collapsible-link::after {
+#faqStandard .collapsible-link::after {
   right: calc(-1rem + 6px);
 }
-
-#partnerFaq .collapsible-link[aria-expanded="true"]::after,
-#standardfaqSection .collapsible-link[aria-expanded="true"]::after,
-#attendantFaq .collapsible-link[aria-expanded="true"]::after,
-.accordion-custom .collapsible-link[aria-expanded="true"]::after {
+#faqStandard .collapsible-link[aria-expanded="true"]::after {
   transform: rotate(90deg) translateX(-1px);
 }
 
-#partnerFaq .collapsible-link[aria-expanded="true"]::before,
-#standardfaqSection .collapsible-link[aria-expanded="true"]::before,
-#attendantFaq .collapsible-link[aria-expanded="true"]::before,
-.accordion-custom .collapsible-link[aria-expanded="true"]::before {
+#faqStandard .collapsible-link[aria-expanded="true"]::before {
   transform: rotate(180deg);
 }

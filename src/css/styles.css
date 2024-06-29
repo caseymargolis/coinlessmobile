@@ -1619,9 +1619,12 @@ button.navbar-toggler {
 }
  
 /* Onboarding FAQ Section */
-#standardfaqSection {
+section.onboardingfaqSection {
   padding-top: max(5.5%, 3.5rem);
   padding-bottom: max(4.5%, 2.5rem);
+}
+#coinlessBody section.onboardingfaqSection .container {
+  max-width: 1000px!important;
 }
 
 
