@@ -1607,6 +1607,11 @@ button.navbar-toggler {
 #onboardingHero p strong {
   color: #005894;
   font-weight: 600;
+}
+@media (max-width: 575px) {
+  #onboardingHero h2 {
+    font-size: 35px;
+  }  
 }   
 
 
