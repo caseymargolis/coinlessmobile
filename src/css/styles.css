@@ -1618,8 +1618,8 @@ button.navbar-toggler {
   }  
 }
  
-/* Onboarding Main Section */
-#onboardingMainsection {
+/* Onboarding FAQ Section */
+#standardfaqSection {
   padding-top: max(6.5%, 3.5rem);
   padding-bottom: max(6.5%, 3.5rem);
 }

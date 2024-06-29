@@ -8,13 +8,13 @@
   border: none;
   border-bottom: 1px solid var(--gray-400) !important;
 }
-#onboardingMainsection .card {
+#standardfaqSection .card {
   border: none;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--gray-400);
 }
 #partnerFaq .card .card-header,
-#onboardingMainsection .card .card-header,
+#standardfaqSection .card .card-header,
 #attendantFaq .card .card-header,
 .accordion-custom .card .card-header {
   border: none;
@@ -23,13 +23,13 @@
   cursor: pointer;
 }
 #partnerFaq .card .card-body p,
-#onboardingMainsection .card .card-body p,
+#standardfaqSection .card .card-body p,
 #attendantFaq .card .card-body p,
 .accordion-custom .card .card-body p {
   margin-bottom: 1.5rem;
 }
 #partnerFaq .card .card-body img,
-#onboardingMainsection .card .card-body img,
+#standardfaqSection .card .card-body img,
 #attendantFaq .card .card-body img,
 .accordion-custom .card .card-body img {
   margin-bottom: 2rem;
@@ -43,7 +43,7 @@
   font-weight: 500;
   line-height: 1.5;
 }
-#onboardingMainsection .card .card-header h6 {
+#standardfaqSection .card .card-header h6 {
   display: block;
   position: relative;
   margin-bottom: 10%;
@@ -55,18 +55,18 @@
   color: var(--black);
   font-family: var(--font-family-body);
 }
-#onboardingMainsection a {
+#standardfaqSection a {
   color: #005894;
 }
-#onboardingMainsection a:hover {
+#standardfaqSection a:hover {
   color: #0A102F;
 }
-#onboardingMainsection ol {
+#standardfaqSection ol {
   padding-left: 25px;
 }
 /* Horizontal line */
 #partnerFaq .collapsible-link::before,
-#onboardingMainsection .collapsible-link::before,
+#standardfaqSection .collapsible-link::before,
 #attendantFaq .collapsible-link::before,
 .accordion-custom .collapsible-link::before {
   content: "";
@@ -79,13 +79,13 @@
   display: block;
   transition: all 0.3s;
 }
-#onboardingMainsection .collapsible-link::before {
+#standardfaqSection .collapsible-link::before {
   right: -1rem;
 }
 
 /* Vertical line */
 #partnerFaq .collapsible-link::after,
-#onboardingMainsection .collapsible-link::after,
+#standardfaqSection .collapsible-link::after,
 #attendantFaq .collapsible-link::after,
 .accordion-custom .collapsible-link::after {
   content: "";
@@ -98,19 +98,19 @@
   display: block;
   transition: all 0.3s;
 }
-#onboardingMainsection .collapsible-link::after {
+#standardfaqSection .collapsible-link::after {
   right: calc(-1rem + 6px);
 }
 
 #partnerFaq .collapsible-link[aria-expanded="true"]::after,
-#onboardingMainsection .collapsible-link[aria-expanded="true"]::after,
+#standardfaqSection .collapsible-link[aria-expanded="true"]::after,
 #attendantFaq .collapsible-link[aria-expanded="true"]::after,
 .accordion-custom .collapsible-link[aria-expanded="true"]::after {
   transform: rotate(90deg) translateX(-1px);
 }
 
 #partnerFaq .collapsible-link[aria-expanded="true"]::before,
-#onboardingMainsection .collapsible-link[aria-expanded="true"]::before,
+#standardfaqSection .collapsible-link[aria-expanded="true"]::before,
 #attendantFaq .collapsible-link[aria-expanded="true"]::before,
 .accordion-custom .collapsible-link[aria-expanded="true"]::before {
   transform: rotate(180deg);
