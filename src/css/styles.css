@@ -1392,6 +1392,7 @@ button.navbar-toggler {
 /* Imagebox Carousel Section */
 #imagecarouselSection {
   background: #0A102F;
+  padding: 20px 0;
 }
 #imagecarouselSection .container {
   max-width: 100%;
@@ -1419,17 +1420,10 @@ button.navbar-toggler {
   font-weight: 700;
   text-transform: uppercase;
   color: #fff;
+  min-width: max-content;
 }
 #imagecarouselSection .marquee__img {
-  width: max(8rem, 12vw);
-  height: 8rem;
-  margin: 0 4vw;
-  border-radius: 100rem;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #444;
-  filter: grayscale(0.6);
+  margin: 0px 75px 0 20px;
 }
 #imagecarouselSection .marquee__inner {
   height: 100%;
