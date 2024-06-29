@@ -1,4 +1,7 @@
 ***** FAQ *****/
+.card-body {
+  padding: 0.5rem 0;
+}
 #partnerFaq .card,
 #attendantFaq .card,
 .accordion-custom .card {
@@ -23,7 +26,7 @@
 #onboardingMainsection .card .card-body p,
 #attendantFaq .card .card-body p,
 .accordion-custom .card .card-body p {
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 #partnerFaq .card .card-body img,
 #onboardingMainsection .card .card-body img,
@@ -46,19 +49,21 @@
   margin-bottom: 10%;
   font-size: 1.3rem;
 }
-
 #partnerFaq a,
-#onboardingMainsection a,
 #attendantFaq a,
 .accordion-custom a {
   color: var(--black);
   font-family: var(--font-family-body);
 }
 #onboardingMainsection a {
-  font-family: var(--font-family-body);
-  font-size: 1.25rem;
+  color: #005894;
 }
-
+#onboardingMainsection a:hover {
+  color: #0A102F;
+}
+#onboardingMainsection ol {
+  padding-left: 25px;
+}
 /* Horizontal line */
 #partnerFaq .collapsible-link::before,
 #onboardingMainsection .collapsible-link::before,
