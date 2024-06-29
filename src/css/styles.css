@@ -1579,13 +1579,10 @@ button.navbar-toggler {
 #onboardingHero {
   padding-top: max(7.5%, 4.5rem);
   padding-bottom: max(7.5%, 4.5rem);
-  background-image: url(/img/onboarding-bg.png.png);
+  background-image: url(/img/onboarding-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-#onboardingHero .row {
-  align-items: center;
 }
 #onboardingHero h2 {
   font-size: 70px;
@@ -1596,10 +1593,21 @@ button.navbar-toggler {
   margin-bottom: 45px;
 }
 #onboardingHero p {
-  color: #005894;
+  color: #0A102F;
   font-size: 18px;
   line-height: 1.65em;
+  text-align: center;
 }
+#onboardingHero p a {
+  color: #005894;
+}
+#onboardingHero p i {
+  margin: 0 10px;
+}
+#onboardingHero p strong {
+  color: #005894;
+  font-weight: 600;
+}   
 
 
 
