@@ -1334,28 +1334,32 @@ button.navbar-toggler {
 	list-style: none;
 	background: #fff;
 	cursor: pointer;
-	padding-bottom: 15px;
+	padding: 30px 30px 45px;
 	flex-direction: column;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .1);
   border: none;
-  border-bottom: 2.5px solid transparent;
+  border-bottom: 3.5px solid transparent;
   transition: all .45s ease;
 }
 #testimonialSection .carousel .card:hover {
 	border-bottom-color: #2575fc;
 }
-#testimonialSection .card .img img {
-	width: 150px;
+#testimonialSection .card .quote-img {
+	position: absolute;
+  max-width: 50px;
+  left: 15px;
+  right: 15px;
 }
 #testimonialSection .carousel .card p {
 	margin-bottom: 35px;
   color: rgba(0, 0, 0, .5);
-  font-size: 12.5px;
+  font-size: 14.5px;
 }
 #testimonialSection .carousel .card hr {
   background: #005894;
   width: 45px;
   margin: auto;
+  height: 1.5px;
 }
 #testimonialSection .carousel .card h5 {
 	font-size: 18px;
@@ -1366,7 +1370,7 @@ button.navbar-toggler {
 #testimonialSection .carousel .card span {
 	color: rgba(0, 0, 0, .5);
   font-weight: 400;
-  font-size: 12.5px;
+  font-size: 13.5px;
 }
 
 @media screen and (max-width: 900px) {
