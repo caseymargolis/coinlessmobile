@@ -1351,7 +1351,7 @@ button.navbar-toggler {
   left: 15px;
   top: 15px;
 }
-#testimonialSection .card img {
+#testimonialSection .card img.star {
   max-width: 275px;
 }
 #testimonialSection .carousel .card p {
