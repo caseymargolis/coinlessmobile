@@ -833,16 +833,16 @@ button.navbar-toggler {
 
 
 
-
-/************************************ 
-*********** HOMEPAGE *************
-*************************************/
 #coinlessBody {
   overflow-x: hidden;
 }
 #coinlessBody .container {
   max-width: 1250px
 }
+
+/************************************ 
+*********** HOMEPAGE *************
+*************************************/
 
 /* Hero Section */
 #upgradeHero {
@@ -1567,6 +1567,38 @@ button.navbar-toggler {
   #mobileappSection img.mobile-app-background {
     width: 30%;
   }
+}
+
+
+
+/************************************ 
+*********** ONBOARDING *************
+*************************************/
+
+/* Hero Section */
+#onboardingHero {
+  padding-top: max(7.5%, 4.5rem);
+  padding-bottom: max(7.5%, 4.5rem);
+  background-image: url(/img/onboarding-bg.png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#onboardingHero .row {
+  align-items: center;
+}
+#onboardingHero h2 {
+  font-size: 70px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+  margin-bottom: 45px;
+}
+#onboardingHero p {
+  color: #005894;
+  font-size: 18px;
+  line-height: 1.65em;
 }
 
 
