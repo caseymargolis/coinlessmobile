@@ -27,7 +27,7 @@ if (document.getElementsByClassName("on-scroll-animation")) {
 $(window).on('scroll', function() {
   var currentScrollTop = $(this).scrollTop();
 		
-  if (currentScrollTop > 150) {
+  if (currentScrollTop > 100) {
     $('#navbar').addClass('sticky');
   } else {
     $('#navbar').removeClass('sticky');
