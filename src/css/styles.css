@@ -1616,7 +1616,18 @@ button.navbar-toggler {
     font-size: 45px;
     margin-bottom: 30px;
   }  
-}   
+}
+ 
+/* Onboarding Main Section */
+#onboardingMainsection {
+  padding-top: max(6.5%, 3.5rem);
+  padding-bottom: max(6.5%, 3.5rem);
+}
+
+
+
+
+
 
 
 
