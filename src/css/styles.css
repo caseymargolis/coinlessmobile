@@ -864,22 +864,22 @@ button.navbar-toggler {
   font-size: 18px;
   line-height: 1.65em;
 }
-#upgradeHero .btn-groups {
+#upgradeHero .btn-group {
   display: flex;
   gap: 15px;
   margin-top: 45px;
 }
-#upgradeHero .btn-groups .btn-primary {
+#upgradeHero .btn-group .btn-primary {
   border: solid 2.5px #005894;
 }
-#upgradeHero .btn-groups .btn-primary:hover {
+#upgradeHero .btn-group .btn-primary:hover {
   border: solid 2.5px var(--secondary);
 }
-#upgradeHero .btn-groups .btn-outline {
+#upgradeHero .btn-group .btn-outline {
   border: solid 2.5px #005894;
   color: #005894;
 }
-#upgradeHero .btn-groups .btn-outline:hover {
+#upgradeHero .btn-group .btn-outline:hover {
   border: solid 2.5px var(--secondary);
   color: #fff;
   background: var(--secondary);
@@ -926,7 +926,7 @@ button.navbar-toggler {
   #upgradeHero h1 {
     font-size: 50px;
   }
-  #upgradeHero .btn-groups {
+  #upgradeHero .btn-group {
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -1498,6 +1498,31 @@ button.navbar-toggler {
   }
   #newsletterSection p {
     margin-top: 20px;
+  }
+}
+
+/* Download Coinless mobile App Section */
+#mobileappSection {
+  padding-top: max(4.5%, 3.5rem);
+  padding-bottom: max(4.5%, 3.5rem);
+  background: #005894;
+  background-image: url(/img/app-background.png);
+}
+#mobileappSection h3 {
+  font-size: 45px;
+  color: #fff;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+  margin-bottom: 45px;
+}
+#mobileappSection .btn-group {
+  display: flex;
+}
+@media (max-width: 575px) {
+  #mobileappSection h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
   }
 }
 
