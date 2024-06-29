@@ -1271,8 +1271,9 @@ button.navbar-toggler {
   }
 }
 #testimonialSection .wrapper {
-	width: 100%;
+	width: calc(100% - 45px);
 	position: relative;
+  margin: auto;
 }
 #testimonialSection .wrapper i {
 	top: 50%;
@@ -1294,21 +1295,21 @@ button.navbar-toggler {
 	transform: translateY(-50%) scale(0.85);
 }
 #testimonialSection .wrapper i:first-child {
-	left: -22px;
+	left: -22.5px;
 }
 #testimonialSection .wrapper i:last-child {
-	right: -22px;
+	right: -22.5px;
 }
 #testimonialSection .wrapper .carousel {
 	display: grid;
-	grid-auto-flow: column;
-	grid-auto-columns: calc((100% / 3) - 12px);
-	overflow-x: auto;
-	scroll-snap-type: x mandatory;
-	gap: 25px;
-	scroll-behavior: smooth;
-	scrollbar-width: none;
-  padding: 25px;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 9.5px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 30px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  padding: 20px 20px 35px;
 }
 #testimonialSection .carousel::-webkit-scrollbar {
 	display: none;
@@ -1346,9 +1347,12 @@ button.navbar-toggler {
 }
 #testimonialSection .card .quote-img {
 	position: absolute;
-  max-width: 50px;
+  max-width: 60px;
   left: 15px;
-  right: 15px;
+  top: 15px;
+}
+#testimonialSection .card img {
+  max-width: 275px;
 }
 #testimonialSection .carousel .card p {
 	margin-bottom: 35px;
@@ -1359,7 +1363,7 @@ button.navbar-toggler {
   background: #005894;
   width: 45px;
   margin: auto;
-  height: 1.5px;
+  height: 1.05px;
 }
 #testimonialSection .carousel .card h5 {
 	font-size: 18px;
@@ -1375,14 +1379,14 @@ button.navbar-toggler {
 
 @media screen and (max-width: 900px) {
 	#testimonialSection .wrapper .carousel {
-		grid-auto-columns: calc((100% / 2) - 9px);
+		grid-auto-columns: calc((100% / 2) + 4.5px);
 	}
 }
 
 @media screen and (max-width: 600px) {
 	#testimonialSection .wrapper .carousel {
-		grid-auto-columns: 100%;
-	}
+    grid-auto-columns: calc(100% + 40px);
+  }
 }
 
 
