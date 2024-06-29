@@ -1489,7 +1489,7 @@ button.navbar-toggler {
   }
   #newsletterSection .form-group {
     max-width: 100%;
-    margin: 30p auto 0;
+    margin: 30px auto 0;
   }
 }
 @media (max-width: 575px) {
