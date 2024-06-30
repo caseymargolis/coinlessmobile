@@ -1744,7 +1744,7 @@ button.navbar-toggler {
 /* Contact Detail Section */
 #contactdetailSection {
   padding-top: max(5.5%, 3.5rem);
-  padding-bottom: max(4.5%, 2.5rem);
+  padding-bottom: max(5.5%, 2.5rem);
 }
 #contactdetailSection .row {
   align-items: center;
@@ -1752,7 +1752,7 @@ button.navbar-toggler {
 #contactdetailSection .image-box {
   border: 2.5px solid #0A102F;
   border-radius: 10px;
-  padding: 30px 25px;
+  padding: 30px;
   text-align: left;
   transition: 0.5s;
 }
@@ -1765,8 +1765,8 @@ button.navbar-toggler {
   color: var(--primary);
 }
 #contactdetailSection .image-box svg {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   margin-bottom: 30px;
 
 }
@@ -1938,13 +1938,10 @@ footer #footerBottom p {
 *************************************/
 
 #section404 {
-  padding: 5rem 0 10rem 0;
+  padding-top: max(10.5%, 7.5rem);
+  padding-bottom: max(6.5%, 3.5rem);
 }
 
-#section404 .container {
-  max-width: 1300px;
-  margin: auto;
-}
 #section404 a:hover {
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.185);
 }
