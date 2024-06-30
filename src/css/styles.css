@@ -1677,12 +1677,52 @@ section.onboardingfaqSection {
 }
 
 /* Onboarding FAQ Section */
-section.mainfaqSection {
+.mainfaqSection {
   padding-top: max(5.5%, 3.5rem);
   padding-bottom: max(4.5%, 2.5rem);
 }
-#coinlessBody section.mainfaqSection .container {
+#coinlessBody .mainfaqSection .container {
   max-width: 1000px!important;
+}
+.mainfaqSection .group-btn {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.mainfaqSection .group-btn .btn {
+  border-radius: 0;
+  min-height: 60px;
+  background: var(--secondary);
+  min-width: 200px;
+}
+.mainfaqSection .group-btn .btn:hover {
+  background: #222;
+}
+.mainfaqSection .group-btn .btn.active {
+  background: var(--primary);
+}
+.mainfaqSection .group-btn .btn.active:hover {
+  background: var(--primary);
+}
+#operator-faq, #customer-faq {
+  margin-top: max(5%, 3rem);
+  display: none; 
+}
+#operator-faq.active, #customer-faq.active {
+  display: flex;
+}
+#operator-faq h4, #customer-faq h4 {
+  color: #0A102F;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.125em;
+  margin-bottom: 35px;
+}
+@media (max-width: 575px) {
+  #operator-faq h4, #customer-faq h4 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  } 
 }
 
 

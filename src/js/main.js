@@ -23,6 +23,7 @@ if (document.getElementsByClassName("on-scroll-animation")) {
   window.addEventListener("scroll", animateOnScroll);
 }
 
+
 // Sitcky Header On Scroll
 $(window).on('scroll', function() {
   var currentScrollTop = $(this).scrollTop();
@@ -32,4 +33,19 @@ $(window).on('scroll', function() {
   } else {
     $('#navbar').removeClass('sticky');
   }
+});
+
+
+// faq page button active on click
+$('#operatorBtn').on('click', function() {
+  $('#customerBtn').removeClass('active');
+  $('#customer-faq').removeClass('active');
+  $(this).addClass('active');
+  $('#operator-faq').addClass('active');
+});
+$('#customerBtn').on('click', function() {
+  $('#operatorBtn').removeClass('active');
+  $('#operator-faq').removeClass('active');
+  $(this).addClass('active');
+  $('#customer-faq').addClass('active');
 });
