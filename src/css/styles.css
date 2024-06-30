@@ -1693,6 +1693,7 @@ section.onboardingfaqSection {
   border-radius: 0;
   min-height: 60px;
   background: var(--secondary);
+  color: #fff;
   min-width: 200px;
 }
 .mainfaqSection .group-btn .btn:hover {
@@ -1717,6 +1718,28 @@ section.onboardingfaqSection {
   font-weight: 600;
   line-height: 1.125em;
   margin-bottom: 35px;
+}
+#faqStandard #operator-faq .card,
+#faqStandard #customer-faq .card {
+  margin-bottom: 1.15rem!important;
+  border: 1px solid #0A102F!important;
+  border-radius: 0;
+}
+#faqStandard #operator-faq .card .card-header,
+#faqStandard #customer-faq .card .card-header {
+  padding: 1.25em!important;
+}
+#faqStandard #operator-faq .collapsible-link::before,
+#faqStandard #customer-faq .collapsible-link::before {
+  right: -0.15rem!important;
+}
+#faqStandard #operator-faq .collapsible-link::after,
+#faqStandard #customer-faq .collapsible-link::after {
+  right: 0.25rem!important;
+}
+#faqStandard #operator-faq .card-body,
+#faqStandard #customer-faq .card-body {
+  padding: 0.5rem 1.25rem!important;
 }
 @media (max-width: 575px) {
   #operator-faq h4, #customer-faq h4 {

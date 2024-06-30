@@ -50,7 +50,6 @@
   background: #333;
   position: absolute;
   top: calc(50% - 1px);
-  right: -1.7rem;
   display: block;
   transition: all 0.3s;
 }
@@ -66,12 +65,11 @@
   background: #333;
   position: absolute;
   top: calc(50% - 7px);
-  right: calc(-1.7rem + 6px);
   display: block;
   transition: all 0.3s;
 }
 #faqStandard .collapsible-link::after {
-  right: calc(-1rem + 6px);
+  right: calc(-1rem + 6.05px);
 }
 #faqStandard .collapsible-link[aria-expanded="true"]::after {
   transform: rotate(90deg) translateX(-1px);
