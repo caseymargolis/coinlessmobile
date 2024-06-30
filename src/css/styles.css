@@ -2302,59 +2302,64 @@ footer #footerBottom p {
 *********** BLOG LANDING PAGE *************
 *************************************/
 
+#blogMain {
+  overflow-x: hidden;
+}
+#blogMain .container {
+  max-width: 1250px
+}
 #blogMain section {
   padding-top: max(5%, 3rem);
   padding-bottom: max(5%, 3rem);
 }
-#blogHero {
-  padding-top: max(5%, 5rem) !important;
-  padding-bottom: max(5%, 5rem) !important;
-  color: var(--white);
-  text-align: center;
-  overflow: hidden;
-  position: relative;
-}
 
-#blogHero {
-  padding-top: max(7.5%, 5rem);
-  padding-bottom: max(12.5%, 5rem);
-  background-image: url(/img/Hero_Illustration_Blue.webp);
-  background-position: 80% center;
+/* Blog Hero Section */
+#blogMain #heroSection {
+  padding-top: max(11.5%, 8.5rem)!important;
+  padding-bottom: max(7.5%, 4.5rem)!important;
+  background-image: url(/img/hero-bg.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+}
+#blogMain #heroSection h2 {
+  font-size: 70px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+  margin-bottom: 45px;
+}
+#blogMain #heroSection p {
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.65em;
+  text-align: center;
+  margin: 0;
+}
+#blogMain #heroSection p a {
+  color: #005894;
+}
+#blogMain #heroSection p i {
+  margin: 0 10px;
+  font-size: 85%;
+  font-weight: bold;
+}
+#blogMain #heroSection p strong {
+  color: #005894;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  #blogMain #heroSection h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }  
 }
 
-#blogHero .container {
-  z-index: 1000 !important;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#blogHero h1 {
-  font-size: 5rem;
-  color: #000000;
-}
-#blogHero h2 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin: 0.75rem 0;
-  background: -webkit-linear-gradient(135deg, var(--secondary) 3.57%, var(--accent) 75%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-#blogHero img {
-  max-height: 200px;
-}
 
-#headlinePost h3 {
-  margin-bottom: 4%;
-}
-#blogHero .row {
-  display: flex;
-  align-items: center;
-}
+
+
 
 #blogMain #headlinePost {
   position: relative;
