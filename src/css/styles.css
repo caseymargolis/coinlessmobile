@@ -1841,7 +1841,7 @@ button.navbar-toggler {
 *************************************/
 footer {
   color: #0A102FCC;
-  padding: max(5%, 3rem) 1rem 0;
+  padding: max(5%, 3rem) 0 0;
   background: #fff;
   font-size: 0.85rem;
   border-top: 1px solid var(--gray-200);
