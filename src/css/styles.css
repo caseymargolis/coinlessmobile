@@ -1636,6 +1636,26 @@ button.navbar-toggler {
 }
 
 
+/************************************ 
+*********** ABOUT US *************
+*************************************/
+
+/* About First Section */
+.aboutfirstSection {
+  padding-top: max(3.5%, 3.5rem);
+  padding-bottom: max(3.5%, 3.5rem);
+}
+#aboutfirstSection img {
+  border-radius: 7.5px;
+}
+#aboutfirstSection h6 {
+  text-align: center;
+  color: #0A102FB0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
 
 /************************************ 
 *********** ONBOARDING *************
