@@ -51,6 +51,6 @@ $('#customerBtn').on('click', function() {
 });
 
 //modal popup close event
-$('#coinlessvideoModal').on('click', function() {
-  $('body').click();
+$('body').on('click', function() {
+  $('#coinlessvideoModal').click();
 });
