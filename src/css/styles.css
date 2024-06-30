@@ -2490,6 +2490,26 @@ footer #footerBottom p {
 #articleMain {
   overflow-x: hidden;
 }
+#articleMain .container {
+  max-width: 1250px;
+}
+#articleMain #heroSection {
+  padding-top: max(11.5%, 8.5rem);
+  padding-bottom: max(7.5%, 4.5rem);
+  background-image: url(/img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#articleMain #heroSection h2 {
+  font-size: 50px;
+}
+@media (max-width: 575px) {
+  #articleMain #heroSection h2 {
+      font-size: 35px;
+      margin-bottom: 25px;
+  }
+}
 
 #articleMain .avatar {
   width: 60px;
@@ -2508,8 +2528,6 @@ footer #footerBottom p {
 }
 #articleMainContainer {
   width: min(1000px, 100%);
-  padding-right: 30px;
-  padding-left: 30px;
 }
 #articleSectionBody h1,
 #articleSectionBody img,
