@@ -584,7 +584,11 @@ button.navbar-toggler {
 }
 #navbar.navbar-expand-xl .navbar-collapse {
   justify-content: end;
-  background: #fff;
+}
+@media (max-width: 1199px) {
+  #navbar.navbar-expand-xl .navbar-collapse {
+    background: #fff;
+  }
 }
 
 
