@@ -4,7 +4,7 @@
             <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="img-fluid" loading="lazy"/>
         </div>
         <div class="article-content">
-            <p class="article-date"><i class="fa fa-calendar"></i> <{{ post.data.date | postDate}}</p>
+            <p class="article-date"><i class="fa fa-calendar"></i> {{ post.data.date | postDate}}</p>
             <h4 class="article-title">
                 {{ post.data.title }}
             </h4>
