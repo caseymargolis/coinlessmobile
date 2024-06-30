@@ -584,6 +584,7 @@ button.navbar-toggler {
 }
 #navbar.navbar-expand-xl .navbar-collapse {
   justify-content: end;
+  background: #fff;
 }
 
 
