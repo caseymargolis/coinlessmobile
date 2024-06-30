@@ -1647,12 +1647,15 @@ button.navbar-toggler {
 }
 #aboutfirstSection img {
   border-radius: 7.5px;
+  width: 100%;
+  margin-top: 10px;
 }
 #aboutfirstSection h6 {
   text-align: center;
   color: #0A102FB0;
   font-size: 20px;
   font-weight: 600;
+  line-height: 1.35em;
   margin: max(4.5%, 2.5rem) 0 0;
 }
 
