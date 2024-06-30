@@ -2374,34 +2374,19 @@ footer #footerBottom p {
   padding-top: max(5.5%, 3.5rem);
   padding-bottom: max(4.5%, 2.5rem);
 }
-#allArticles h2 {
-  font-family: "Montserrat", var(--font-family-body);
-  font-size: 1.8rem;
-}
-#allArticles {
-  color: var(--white);
-  background: var(--gray-900);
-}
 #allArticles .article-title {
-  color: var(--white)!important;
+  
 }
 #allArticles .article:hover .article-title {
-  color: var(--gray-500) !important;
+  
 }
 #allArticles .article-date {
-  color: var(--white);
+  
 }
 
 #allArticles .showMore-btn {
   display: block;
   text-align: center;
-}
-#allArticles #showMoreBtn {
-  color: var(--white);
-  border: 1px solid var(--white);
-}
-#allArticles #showMoreBtn:hover {
-  background: rgba(255, 255, 255, 0.15);
 }
 
 
