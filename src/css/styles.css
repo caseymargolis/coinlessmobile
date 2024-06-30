@@ -833,6 +833,10 @@ button.navbar-toggler {
 
 
 
+/************************************ 
+*********** HOMEPAGE *************
+*************************************/
+
 #coinlessBody {
   overflow-x: hidden;
 }
@@ -840,11 +844,52 @@ button.navbar-toggler {
   max-width: 1250px
 }
 
-/************************************ 
-*********** HOMEPAGE *************
-*************************************/
+/* Custom Hero Section Start */
+#coinlessBody #heroSection {
+  padding-top: max(11.5%, 8.5rem);
+  padding-bottom: max(7.5%, 4.5rem);
+  background-image: url(/img/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#coinlessBody #heroSection h2 {
+  font-size: 70px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+  margin-bottom: 45px;
+}
+#coinlessBody #heroSection p {
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.65em;
+  text-align: center;
+  margin: 0;
+}
+#coinlessBody #heroSection p a {
+  color: #005894;
+}
+#coinlessBody #heroSection p i {
+  margin: 0 10px;
+  font-size: 85%;
+  font-weight: bold;
+}
+#coinlessBody #heroSection p strong {
+  color: #005894;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  #coinlessBody #heroSection h2 {
+    font-size: 45px;
+    margin-bottom: 30px;
+  }  
+}
+/* Custom Hero Section End */
 
-/* Hero Section */
+
+/* Home Hero Section */
 #upgradeHero {
   padding-top: max(10.5%, 7.5rem);
   padding-bottom: max(6.5%, 3.5rem);
@@ -1575,55 +1620,12 @@ button.navbar-toggler {
 *********** ONBOARDING *************
 *************************************/
 
-/* Hero Section */
-#onboardingHero {
-  padding-top: max(11.5%, 8.5rem);
-  padding-bottom: max(7.5%, 4.5rem);
-  background-image: url(/img/onboarding-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-#onboardingHero h2 {
-  font-size: 70px;
-  color: #0A102F;
-  font-weight: 800;
-  line-height: 1.125em;
-  text-align: center;
-  margin-bottom: 45px;
-}
-#onboardingHero p {
-  color: #0A102F;
-  font-size: 18px;
-  line-height: 1.65em;
-  text-align: center;
-  margin: 0;
-}
-#onboardingHero p a {
-  color: #005894;
-}
-#onboardingHero p i {
-  margin: 0 10px;
-  font-size: 85%;
-  font-weight: bold;
-}
-#onboardingHero p strong {
-  color: #005894;
-  font-weight: 600;
-}
-@media (max-width: 575px) {
-  #onboardingHero h2 {
-    font-size: 45px;
-    margin-bottom: 30px;
-  }  
-}
- 
 /* Onboarding FAQ Section */
-section.onboardingfaqSection {
+.onboardingfaqSection {
   padding-top: max(5.5%, 3.5rem);
   padding-bottom: max(4.5%, 2.5rem);
 }
-#coinlessBody section.onboardingfaqSection .container {
+#coinlessBody .onboardingfaqSection .container {
   max-width: 1000px!important;
 }
 
@@ -1633,50 +1635,7 @@ section.onboardingfaqSection {
 *********** FAQ *************
 *************************************/
 
-/* Hero Section */
-#faqHero {
-  padding-top: max(11.5%, 8.5rem);
-  padding-bottom: max(7.5%, 4.5rem);
-  background-image: url(/img/onboarding-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-#faqHero h2 {
-  font-size: 70px;
-  color: #0A102F;
-  font-weight: 800;
-  line-height: 1.125em;
-  text-align: center;
-  margin-bottom: 45px;
-}
-#faqHero p {
-  color: #0A102F;
-  font-size: 18px;
-  line-height: 1.65em;
-  text-align: center;
-  margin: 0;
-}
-#faqHero p a {
-  color: #005894;
-}
-#faqHero p i {
-  margin: 0 10px;
-  font-size: 85%;
-  font-weight: bold;
-}
-#faqHero p strong {
-  color: #005894;
-  font-weight: 600;
-}
-@media (max-width: 575px) {
-  #faqHero h2 {
-    font-size: 45px;
-    margin-bottom: 30px;
-  }  
-}
-
-/* Onboarding FAQ Section */
+/* Main FAQ Section */
 .mainfaqSection {
   padding-top: max(5.5%, 3.5rem);
   padding-bottom: max(4.5%, 2.5rem);
@@ -1774,6 +1733,44 @@ section.onboardingfaqSection {
     font-size: 30px;
     margin: 50px auto 20px;
   } 
+}
+
+
+
+/************************************ 
+*********** Contact Us *************
+*************************************/
+
+/* Contact Detail Section */
+#contactdetailSection .image-box {
+  border: 2.5px solid #0A102F;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+  transition: 0.5s;
+}
+#contactdetailSection .image-box:hover {
+  box-shadow: 10px 10px 0px 0px #0A102F;
+}
+#contactdetailSection .image-box i.fa {
+  font-size: 65px;
+}
+#contactdetailSection .image-box svg {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+#contactdetailSection .image-box h5 {
+  font-size: 23.5px;
+  font-weight: 600;
+}
+#contactdetailSection .image-box p {
+  text-align: left;
+  margin: 45px auto 0;
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.65em;
+  text-align: center;
 }
 
 
