@@ -843,7 +843,7 @@ button.navbar-toggler {
 }
 
 /* Custom Hero Section Start */
-#coinlessBody #heroSection {
+#heroSection {
   padding-top: max(11.5%, 8.5rem);
   padding-bottom: max(7.5%, 4.5rem);
   background-image: url(/img/hero-bg.png);
@@ -851,7 +851,7 @@ button.navbar-toggler {
   background-position: center;
   background-size: cover;
 }
-#coinlessBody #heroSection h2 {
+#heroSection h2 {
   font-size: 70px;
   color: #0A102F;
   font-weight: 800;
@@ -859,27 +859,27 @@ button.navbar-toggler {
   text-align: center;
   margin-bottom: 45px;
 }
-#coinlessBody #heroSection p {
+#heroSection p {
   color: #0A102F;
   font-size: 18px;
   line-height: 1.65em;
   text-align: center;
   margin: 0;
 }
-#coinlessBody #heroSection p a {
+#heroSection p a {
   color: #005894;
 }
-#coinlessBody #heroSection p i {
+#heroSection p i {
   margin: 0 10px;
   font-size: 85%;
   font-weight: bold;
 }
-#coinlessBody #heroSection p strong {
+#heroSection p strong {
   color: #005894;
   font-weight: 600;
 }
 @media (max-width: 575px) {
-  #coinlessBody #heroSection h2 {
+  #heroSection h2 {
     font-size: 45px;
     margin-bottom: 30px;
   }  
@@ -2326,49 +2326,6 @@ footer #footerBottom p {
   max-width: 1250px
 }
 
-/* Blog Hero Section */
-#blogMain #heroSection {
-  padding-top: max(11.5%, 8.5rem)!important;
-  padding-bottom: max(7.5%, 4.5rem)!important;
-  background-image: url(/img/hero-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-#blogMain #heroSection h2 {
-  font-size: 70px;
-  color: #0A102F;
-  font-weight: 800;
-  line-height: 1.125em;
-  text-align: center;
-  margin-bottom: 45px;
-}
-#blogMain #heroSection p {
-  color: #0A102F;
-  font-size: 18px;
-  line-height: 1.65em;
-  text-align: center;
-  margin: 0;
-}
-#blogMain #heroSection p a {
-  color: #005894;
-}
-#blogMain #heroSection p i {
-  margin: 0 10px;
-  font-size: 85%;
-  font-weight: bold;
-}
-#blogMain #heroSection p strong {
-  color: #005894;
-  font-weight: 600;
-}
-@media (max-width: 575px) {
-  #blogMain #heroSection h2 {
-    font-size: 45px;
-    margin-bottom: 30px;
-  }  
-}
-
 /* All Articles Section */
 #allArticles {
   padding-top: max(4.5%, 2.5rem);
@@ -2380,7 +2337,9 @@ footer #footerBottom p {
 #allArticles .showMore-btn {
   display: block;
   text-align: center;
-  margin-top: 30px;
+}
+#allArticles .showMore-btn #showMoreBtn {
+  margin-top: 35px;
 }
 
 /* Article Card */
@@ -2407,7 +2366,6 @@ footer #footerBottom p {
   padding-left: 0;
   padding-right: 0;
 }
-
 
 
 .article-img-container {
@@ -2525,113 +2483,15 @@ footer #footerBottom p {
 }
 
 
-/************************************ 
-*********** ARTICLE SEARCH BAR *************
-*************************************/
-
-#articleMain {
-  margin-top: 6%;
-}
-
-.article-search-form {
-  position: relative;
-  color: var(--white) !important;
-  background: var(---gray-300);
-  border-radius: 50px;
-  padding: 0.2rem 1rem;
-  margin: 1rem 0;
-  box-shadow: var(--drop-shadow-200);
-  width: 450px;
-  max-width: 95%;
-}
-#articleMain .article-search-form {
-  width: 300px;
-  padding: 0 1rem;
-}
-.aa-Form {
-  background: none !important;
-  border: none !important;
-  height: auto !important;
-}
-
-.aa-Form .aa-InputWrapperPrefix label {
-  margin-bottom: 0 !important;
-}
-.aa-Form input {
-  margin: 0;
-  background: none !important;
-}
-.aa-Form i {
-  position: absolute;
-  left: 15px;
-  z-index: 1;
-}
-.aa-Form input::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgba(0, 0, 0, 0.5);
-  opacity: 1; /* Firefox */
-}
-
-.aa-Form input:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.aa-Form input::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: rgba(0, 0, 0, 0.5);
-}
-
-.aa-Item {
-  padding: 10px 0 !important;
-}
-.aa-SourceFooter {
-  display: none !important;
-}
-.aa-Item .aa-ItemContent mark {
-  color: inherit !important;
-}
-/*----- Start of Algolia Mobile Elements -----*/
-.aa-DetachedSearchButton {
-  background: none !important;
-  border: none !important;
-}
-.aa-DetachedOverlay {
-  z-index: 1000 !important;
-}
-.aa-DetachedFormContainer {
-  padding: 20px 10px !important;
-}
-.aa-DetachedFormContainer .aa-Form {
-  background: var(--gray-200) !important;
-  border-radius: 50px !important;
-  padding: 0 10px !important;
-}
-@media (max-width: 679px) {
-  #articleMain .article-search-form {
-    width: auto !important;
-    padding: 0;
-    background: none;
-    box-shadow: none;
-  }
-  #articleMain .aa-DetachedSearchButtonIcon {
-    color: var(--white) !important;
-  }
-  #articleMain .aa-DetachedSearchButtonPlaceholder {
-    display: none;
-  }
-}
-
-/*----- End of Algolia Mobile Elements -----*/
-
-#articleMain .article-search-form input {
-  margin: 0;
-}
 
 /************************************ 
 *********** ARTICLE *************
 *************************************/
-.avatar {
+#articleMain {
+  overflow-x: hidden;
+}
+
+#articleMain .avatar {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -2647,7 +2507,7 @@ footer #footerBottom p {
   padding-bottom: max(2%, 2rem) !important;
 }
 #articleMainContainer {
-  width: min(800px, 100%);
+  width: min(1000px, 100%);
   padding-right: 30px;
   padding-left: 30px;
 }
