@@ -26,8 +26,9 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="row article-row article-no-container">
-            {%- for post in collections.blog | reverse -%} {% include
-            'article-snippet.njk' %} {%- endfor -%}
+            {%- for post in collections.blog | reverse -%} 
+              {% include 'article-snippet.njk' %}
+            {%- endfor -%}
           </div>
           <div class="showMore-btn"><button id="showMoreBtn" class="btn btn-primary">Show More +</button></div>
         </div>

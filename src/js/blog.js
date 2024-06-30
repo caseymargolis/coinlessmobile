@@ -11,7 +11,7 @@ function showMoreArticles(articleAmount) {
       document.getElementById("showMoreBtn").style.display = "none";
       break;
     } else {
-      articles[articleIndex].style.display = "block";
+      articles[articleIndex].style.display = "flex";
       articleIndex++;
     }
   }
