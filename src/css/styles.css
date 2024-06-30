@@ -1609,8 +1609,7 @@ button.navbar-toggler {
 
 /* Video Modal Section */
 #coinlessvideoModal.modal {
-  display:flex;
-  align-items: center;
+  
 }
 #coinlessvideoModal .modal-dialog {
   max-width: 1250px;
