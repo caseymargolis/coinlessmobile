@@ -49,3 +49,8 @@ $('#customerBtn').on('click', function() {
   $(this).addClass('active');
   $('#customer-faq').addClass('active');
 });
+
+//modal popup close event
+$('#coinlessvideoModal').on('click', function() {
+  $('body').click();
+});
