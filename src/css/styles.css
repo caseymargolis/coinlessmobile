@@ -1741,10 +1741,33 @@ section.onboardingfaqSection {
 #faqStandard #customer-faq .card-body {
   padding: 0.5rem 1.25rem!important;
 }
+.mainfaqSection .coinless-support h4 {
+  color: #0A102F;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.125em;
+  margin-bottom: 25px;
+}
+.mainfaqSection .coinless-support p {
+  color: #7a7a7a;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+.mainfaqSection .coinless-support p a {
+  color: #005894;
+  transition: all .35s ease;
+}
+.mainfaqSection .coinless-support p a:hover {
+  color: #0A102F;
+}
 @media (max-width: 575px) {
   #operator-faq h4, #customer-faq h4 {
     font-size: 30px;
     margin-bottom: 25px;
+  }
+  .mainfaqSection .coinless-support h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
   } 
 }
 
