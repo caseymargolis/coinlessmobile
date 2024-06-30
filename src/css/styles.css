@@ -1608,9 +1608,6 @@ button.navbar-toggler {
 }
 
 /* Video Modal Section */
-#coinlessvideoModal.modal {
-  
-}
 #coinlessvideoModal .modal-dialog {
   max-width: 1250px;
   padding: 15px;
@@ -1621,6 +1618,11 @@ button.navbar-toggler {
 #coinlessvideoModal video {
   width: 100%;
   margin-bottom: -7.5px; 
+}
+@media (max-width: 575px) {
+  #coinlessvideoModal .modal-dialog {
+    margin: 0;
+  }
 }
 
 
