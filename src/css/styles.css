@@ -2518,13 +2518,9 @@ footer #footerBottom p {
   margin-right: 1rem;
   object-fit: cover;
 }
-#articleMain section {
-  padding-top: max(2%, 2rem);
-  padding-bottom: max(2%, 2rem);
-}
 #articleSectionBody {
-  padding-top: max(3%, 2.5rem) !important;
-  padding-bottom: max(2%, 2rem) !important;
+  padding-top: max(3.5%, 2.5rem);
+  padding-bottom: max(3.5%,2.5rem);
 }
 #articleMainContainer {
   width: min(1000px, 100%);
@@ -2713,7 +2709,10 @@ footer #footerBottom p {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 14px;
 }
-
+#relatedStories {
+  padding-top: max(2.5%, 1.5rem) !important;
+  padding-bottom: max(4.5%, 3.5rem) !important;
+}
 #relatedStories h2,
 #moreStories h2 {
   text-align: center;
@@ -2723,9 +2722,7 @@ footer #footerBottom p {
 .article-footer {
   background: var(--gray-100);
   border-radius: 10px;
-  padding: 2.5rem 1.8rem;
-  margin-right: -15px;
-  margin-left: -15px;
+  padding: 2.5rem 1.75rem;
 }
 .article-footer p,
 .article-footer ul {
@@ -2766,7 +2763,9 @@ footer #footerBottom p {
   margin-bottom: 0 !important;
 }
 #moreStories {
-  padding-bottom: max(3rem, 4%) !important;
+  display: none!important;
+  padding-top: max(3.5%, 2.5rem);
+  padding-bottom: max(4.5%, 3.5rem);
 }
 
 @media (max-width: 576px) {
