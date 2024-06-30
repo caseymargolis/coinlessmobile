@@ -2520,7 +2520,7 @@ footer #footerBottom p {
 }
 #articleSectionBody {
   padding-top: max(3.5%, 2.5rem);
-  padding-bottom: max(3.5%,2.5rem);
+  padding-bottom: max(2.5%, 1.05rem);
 }
 #articleMainContainer {
   width: min(1000px, 100%);
@@ -2764,7 +2764,7 @@ footer #footerBottom p {
 }
 #moreStories {
   display: none!important;
-  padding-top: max(3.5%, 2.5rem);
+  padding-top: max(2.5%, 1.05rem);
   padding-bottom: max(4.5%, 3.5rem);
 }
 

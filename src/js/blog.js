@@ -58,6 +58,7 @@ if (document.getElementById("careersPositions")) {
 
 // Assign author avatars and bios
 let avatars = document.querySelectorAll(".avatar");
+let author_avatar = document.querySelectorAll(".author_avatar");
 let authorBio = document.querySelectorAll(".author-bio-content");
 let authorSocialMedia = document.querySelectorAll(".author-social-media");
 
@@ -67,51 +68,61 @@ for (let i = 0; i < avatars.length; i++) {
   switch (author) {
     case "Max Pulcini":
       avatars[i].src = "/img/max-pulcini.png";
+      author_avatar[i].src = "/img/max-pulcini.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/maxpulcini/";
       break;
     case "Harriet Ayoade":
       avatars[i].src = "/img/harriet-ayoade.png";
+      author_avatar[i].src = "/img/harriet-ayoade.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/harrietayoade/";
       break;
     case "Nash Goudie":
       avatars[i].src = "/img/nash-goudie.png";
+      author_avatar[i].src = "/img/nash-goudie.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet consectetur.";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/nashgoudie/";
       break;
     case "Yamilette Roman":
       avatars[i].src = "/img/yamilette-roman.png";
+      author_avatar[i].src = "/img/yamilette-roman.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/yamilette-roman/";
       break;
     case "Ryan Caldwell":
       avatars[i].src = "/img/ryan-caldwell.jpg";
+      author_avatar[i].src = "/img/ryan-caldwell.jpg";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/ryan-caldwell-709a60244/";
       break;
     case "Mike Christie":
       avatars[i].src = "/img/mike-christie.jpg";
+      author_avatar[i].src = "/img/mike-christie.jpg";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/mikechristie60/";
       break;
     case "Rachel Fry":
       avatars[i].src = "/img/rachel-fry.png";
+      author_avatar[i].src = "/img/rachel-fry.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet consectetur.";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/rachelfryhr/";
       break;
     case "Todd Rendle":
       avatars[i].src = "/img/todd-rendle.png";
+      author_avatar[i].src = "/img/todd-rendle.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet consectetur.";
       authorSocialMedia[i].href = "https://www.linkedin.com/in/toddrendle/";
       break;
     case "EverWash Newsroom":
       avatars[i].src = "/img/author.png";
+      author_avatar[i].src = "/img/author.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/";
       break;
     default:
       avatars[i].src = "/img/author.png";
+      author_avatar[i].src = "/img/author.png";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/";
   }
