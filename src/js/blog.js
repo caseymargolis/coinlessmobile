@@ -119,7 +119,6 @@ for (let i = 0; i < avatars.length; i++) {
 
 // PDF Download for articles
 
-//
 const links = document.querySelectorAll("#articleMain a[href$='.pdf']");
 
 links.forEach((link) => {
