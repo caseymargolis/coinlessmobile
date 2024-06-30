@@ -1725,17 +1725,21 @@ section.onboardingfaqSection {
   border: 1px solid #0A102F!important;
   border-radius: 0;
 }
+#faqStandard #operator-faq .card .card-body img,
+#faqStandard #customer-faq .card .card-body img {
+  margin-bottom: 0!important;
+}
 #faqStandard #operator-faq .card .card-header,
 #faqStandard #customer-faq .card .card-header {
-  padding: 1.25em!important;
+  padding: 1.25em 2.5rem 1.25rem 1.25rem!important;
 }
 #faqStandard #operator-faq .collapsible-link::before,
 #faqStandard #customer-faq .collapsible-link::before {
-  right: -0.15rem!important;
+  right: -1.25rem !important;
 }
 #faqStandard #operator-faq .collapsible-link::after,
 #faqStandard #customer-faq .collapsible-link::after {
-  right: 0.25rem!important;
+  right: -0.885rem !important;
 }
 #faqStandard #operator-faq .card-body,
 #faqStandard #customer-faq .card-body {
@@ -1746,12 +1750,13 @@ section.onboardingfaqSection {
   font-size: 40px;
   font-weight: 600;
   line-height: 1.125em;
-  margin-bottom: 25px;
+  margin: 75px auto 25px;
 }
 .mainfaqSection .coinless-support p {
   color: #7a7a7a;
   margin-bottom: 1rem;
   font-size: 0.95rem;
+  font-weight: 500;
 }
 .mainfaqSection .coinless-support p a {
   color: #005894;
@@ -1767,7 +1772,7 @@ section.onboardingfaqSection {
   }
   .mainfaqSection .coinless-support h4 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin: 50px auto 20px;
   } 
 }
 
