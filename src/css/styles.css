@@ -1671,7 +1671,10 @@ button.navbar-toggler {
 }
 #aboutfirstSection .logos-group {
   -ms-overflow-style: none; 
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+  margin-top: 45px; /* Firefox */
 }
 #aboutfirstSection .partnerLogo {
   background: #ffffff;
