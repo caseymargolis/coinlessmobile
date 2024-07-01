@@ -1931,11 +1931,11 @@ button.navbar-toggler {
 }
 .h--timeline-dates::before{
     left: 0;
-    background: linear-gradient(to right, hsl(0, 0%, 100%), hsla(0, 0%, 100%, 0));
+    background: linear-gradient(to right, #FAF9F5, hsla(0, 0%, 100%, 0));
 }
 .h--timeline-dates::after{
     right: 0;
-    background: linear-gradient(to left, hsl(0, 0%, 100%), hsla(0, 0%, 100%, 0));
+    background: linear-gradient(to left, #FAF9F5, hsla(0, 0%, 100%, 0));
 }
 
 /* Timeline horizontal line */
@@ -2228,9 +2228,9 @@ button.navbar-toggler {
 }
 .h--timeline-line li .h--timeline-date--selected::after,
 .h--timeline-line li .h--timeline-date:hover::after{
-    width: 21px;
-    height: 21px;
-    bottom: -11px;
+    width: 23.5px;
+    height: 23.5px;
+    bottom: -10px;
     background-color: #f7f7f7;
     border-color: var(--primary);
 }
@@ -2239,7 +2239,7 @@ button.navbar-toggler {
 }
 .h--timeline-line li:nth-child(even) .h--timeline-date:hover::after,
 .h--timeline-line li:nth-child(even) .h--timeline-date--selected::after{
-    bottom: 37px;
+    bottom: 37.5px;
 }
 .h--timeline-line li:nth-child(even) .h--timeline-date::before{
     bottom: 45px;
