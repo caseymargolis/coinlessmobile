@@ -1665,9 +1665,6 @@ button.navbar-toggler {
   padding-bottom: max(6.05%, 3.5rem);
   background: #FAF9F5;
 }
-#aboutusSection .video-content {
-  max-width: 625px;
-}
 #aboutusSection .video-content img {
   border-radius: 10px;
 }
@@ -1774,6 +1771,55 @@ button.navbar-toggler {
     margin-right: -15px;
   }
   #aboutusSection h3 {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+}
+
+/* Our Creative Talent Section */
+#ourcreativeSection {
+  padding-top: max(6.05%, 3.5rem);
+  padding-bottom: max(6.05%, 3.5rem);
+}
+#ourcreativeSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+}
+#ourcreativeSection p {
+  color: #0A102FCC;
+  font-size: 18px;
+  line-height: 1.65em;
+  margin: 30px auto;
+}
+#ourcreativeSection .text-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 45px;
+  align-content: center;
+}
+#ourcreativeSection .info-box {
+  
+}
+
+#ourcreativeSection .info-box h1 {
+  font-size: 65px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+}
+#ourcreativeSection .info-box h6 {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width: 991px) {
+  
+}
+@media (max-width: 575px) {
+  #ourcreativeSection h3 {
     font-size: 35px;
     margin-top: 20px;
   }
