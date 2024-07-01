@@ -2350,13 +2350,12 @@ button.navbar-toggler {
   margin: 30px auto;
 }
 #meetteamSection .team-box {
-  padding: 15px;
+  padding: 20px;
   background: #fff;
   border-radius: 10px;
   -webkit-transition: 0.35s ease-in-out;
   transition: 0.35s ease-in-out;
   text-align: center;
-  margin: 7.5px 0;
   height: 100%;
     
 }
@@ -2381,12 +2380,14 @@ button.navbar-toggler {
   #meetteamSection .col-lg-3 {
     flex: 0 0 50%;
     max-width: 50%;
+    margin: 15px 0;
   }
 }
 @media (max-width: 575px) {
   #meetteamSection .col-lg-3 {
     flex: 0 0 100%;
     max-width: 100%;
+    margin: 10px 0;
   }
   #meetteamSection h3 {
     font-size: 35px;
