@@ -2394,6 +2394,27 @@ button.navbar-toggler {
   }
 }
 
+/* Most of our satisfied clients leave their feedback Section */
+.aboutfeedbackSection {
+  padding-top: max(6.05%, 3.5rem);
+  padding-bottom: max(4.5%, 2.5rem);
+}
+#coinlessBody .aboutfeedbackSection .container {
+  max-width: 1000px!important;
+}
+.aboutfeedbackSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+}
+@media (max-width: 575px) {
+  #aboutfeedbackSection h3 {
+    font-size: 35px;
+  }
+}
+
 
 
 
