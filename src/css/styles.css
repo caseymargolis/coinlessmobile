@@ -1950,7 +1950,6 @@ button.navbar-toggler {
     transition: -webkit-transform 0.45s;
     transition: transform 0.45s;
     transition: transform 0.45s, -webkit-transform 0.45s;
-    width: 965px;
 }
 .h--timeline-filling-line{
     position: absolute;
