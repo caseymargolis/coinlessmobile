@@ -2321,9 +2321,54 @@ button.navbar-toggler {
 @media (max-width: 575px) {
   #ourcorevaluesSection h3 {
       font-size: 35px;
-      font-size: 35px;
-      margin: 0 0 30px;
+      margin: 0 10px 30px;
   }
+}
+
+/* Meet The Team Section */
+#meetteamSection {
+  padding-top: max(6.05%, 3.5rem);
+  padding-bottom: max(6.05%, 3.5rem);
+  background: #FAF9F5;
+}
+#meetteamSection .header-content {
+  max-width: 600px;
+  margin: auto;
+}
+#meetteamSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+  text-align: center;
+}
+#meetteamSection p {
+  color: #0A102F;
+  font-size: 18px;
+  line-height: 1.65em;
+  text-align: center;
+  margin: 30px auto;
+}
+#meetteamSection .team-box {
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+}
+#meetteamSection .team-box:hover {
+  box-shadow: 0px 5px 75px 0px rgba(0, 0, 0, 0.075);
+}
+#meetteamSection .team-box img {
+  border-radius: 10px;
+}
+#meetteamSection .team-box h6 {
+  color: #0A102F;
+  font-size: 20px;
+  font-weight: 600;
+}
+#meetteamSection .team-box span {
+  color: #0A102FCC;
+  font-size: 13.5px;
+  font-weight: 400;
 }
 
 
