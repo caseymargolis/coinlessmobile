@@ -1740,8 +1740,8 @@ button.navbar-toggler {
   align-items: center;
 }
 #aboutusSection .info-box img {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
 }
 #aboutusSection .info-box p {
@@ -1781,7 +1781,7 @@ button.navbar-toggler {
   padding-bottom: max(6.05%, 3.5rem);
 }
 #ourcreativeSection .text-content {
-  padding-right: 7.5%;
+  padding-right: 5%;
 }
 #ourcreativeSection h3 {
   font-size: 45px;
@@ -1808,9 +1808,11 @@ button.navbar-toggler {
   border-bottom: solid 2.5px #FAF9F5;
   border-right: solid 2.5px #FAF9F5;
 }
-#ourcreativeSection .info-box:nth-child(4){
-  border-top: solid 2.5px #FAF9F5;
-  border-left: solid 2.5px #FAF9F5;
+#ourcreativeSection .info-box:nth-child(2) {
+  border-bottom: solid 2.5px #FAF9F5;
+}
+#ourcreativeSection .info-box:nth-child(3){
+  border-right: solid 2.5px #FAF9F5;
 }
 #ourcreativeSection .info-box h1 {
   font-size: 65px;
@@ -1824,12 +1826,56 @@ button.navbar-toggler {
   font-weight: 600;
 }
 @media (max-width: 991px) {
-  
+  #ourcreativeSection .row {
+    max-width: 625px;
+    margin: auto;
+    gap: 30px;
+  }
+  #ourcreativeSection .text-content {
+    padding-right: 15px;
+  }
 }
 @media (max-width: 575px) {
   #ourcreativeSection h3 {
     font-size: 35px;
-    margin-top: 20px;
+  }
+  #ourcreativeSection p {
+    margin: 20px auto 30px;
+  }
+  #ourcreativeSection .info-box h1 {
+    font-size: 45px;
+  }
+}
+
+/* TIMELINE Section */
+#timelineSection {
+  padding-top: max(6.05%, 3.5rem);
+  padding-bottom: max(6.05%, 3.5rem);
+  background: #FAF9F5;
+}
+#timelineSection h3 {
+  font-size: 45px;
+  color: #0A102F;
+  font-weight: 800;
+  line-height: 1.125em;
+}
+#timelineSection p {
+  color: #0A102FCC;
+  font-size: 18px;
+  line-height: 1.65em;
+  margin: 30px auto;
+}
+
+#timelineSection .timeline-box {
+  color: #0A102F;
+  font-weight: 600;
+}
+@media (max-width: 991px) {
+  
+}
+@media (max-width: 575px) {
+  #timelineSection h3 {
+    font-size: 35px;
   }
 }
 
