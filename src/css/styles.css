@@ -1785,13 +1785,15 @@ button.navbar-toggler {
   font-size: 45px;
   color: #0A102F;
   font-weight: 800;
-  line-height: 1.125em;
+  line-height: 1.25em;
+  padding-right: 10%;
 }
 #ourcreativeSection p {
   color: #0A102FCC;
   font-size: 18px;
   line-height: 1.65em;
-  margin: 30px auto;
+  margin: 30px auto 45px;
+  padding-right: 10%;
 }
 #ourcreativeSection .text-content {
   display: flex;
@@ -1799,10 +1801,12 @@ button.navbar-toggler {
   align-items: center;
   align-content: center;
 }
+#ourcreativeSection .group-infobox {
+  
+}
 #ourcreativeSection .info-box {
   
 }
-
 #ourcreativeSection .info-box h1 {
   font-size: 65px;
   color: #0A102F;
