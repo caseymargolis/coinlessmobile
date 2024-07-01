@@ -1645,6 +1645,9 @@ button.navbar-toggler {
   padding-top: max(3.5%, 3.5rem);
   padding-bottom: max(3.5%, 3.5rem);
 }
+#aboutfirstSection .container {
+  overflow-x: hidden;
+}
 #aboutfirstSection img {
   border-radius: 7.5px;
   width: 100%;
@@ -1660,9 +1663,9 @@ button.navbar-toggler {
 }
 #aboutfirstSection .logos-group {
   overflow: hidden;
-  width: 2000px !important;
-  -webkit-animation: mover 12s infinite normal;
-  animation: mover 12s infinite normal;
+  width: 2350px !important;
+  -webkit-animation: mover 15s infinite normal;
+  animation: mover 15s infinite normal;
   animation-timing-function: linear;
   width: 200%;
 }
