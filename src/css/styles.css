@@ -1781,23 +1781,20 @@ button.navbar-toggler {
   padding-top: max(6.05%, 3.5rem);
   padding-bottom: max(6.05%, 3.5rem);
 }
+#ourcreativeSection .text-content {
+  padding-right: 7.5%;
+}
 #ourcreativeSection h3 {
   font-size: 45px;
   color: #0A102F;
   font-weight: 800;
   line-height: 1.25em;
-  padding-right: 10%;
 }
 #ourcreativeSection p {
   color: #0A102FCC;
   font-size: 18px;
   line-height: 1.65em;
   margin: 30px auto 45px;
-  padding-right: 10%;
-}
-#ourcreativeSection .text-content {
-  display: flex;
-  align-items: center;
 }
 #ourcreativeSection .group-infobox {
   display: flex;
@@ -1809,12 +1806,12 @@ button.navbar-toggler {
   padding: 30px;
 }
 #ourcreativeSection .info-box:nth-child(1) {
-  border-bottom: solid 1px #FAF9F5;
-  border-right: solid 1px #FAF9F5;
+  border-bottom: solid 2.5px #FAF9F5;
+  border-right: solid 2.5px #FAF9F5;
 }
 #ourcreativeSection .info-box:nth-child(4){
-  border-top: solid 1px #FAF9F5;
-  border-left: solid 1px #FAF9F5;
+  border-top: solid 2.5px #FAF9F5;
+  border-left: solid 2.5px #FAF9F5;
 }
 #ourcreativeSection .info-box h1 {
   font-size: 65px;
