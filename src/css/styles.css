@@ -2264,10 +2264,7 @@ button.navbar-toggler {
 /* Our Core Values Section */
 #ourcorevaluesSection {
   padding-top: max(6.05%, 3.5rem);
-  padding-bottom: max(6.05%, 3.5rem);
-}
-#ourcorevaluesSection .row {
-  align-items: center;
+  padding-bottom: max(5.05%, 2.5rem);
 }
 #ourcorevaluesSection h3 {
   font-size: 45px;
@@ -2275,6 +2272,7 @@ button.navbar-toggler {
   font-weight: 800;
   line-height: 1.125em;
   text-align: center;
+  margin: 0 15% 7.5%;
 }
 #ourcorevaluesSection .info-content {
   display: flex;
@@ -2287,41 +2285,44 @@ button.navbar-toggler {
 }
 #ourcorevaluesSection svg {
   background: #005894;
-  color: #fff;
   border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+}
+#ourcorevaluesSection svg path {
+  fill: #fff;
 }
 #ourcorevaluesSection h6 {
-  font-size: 20px;
+  font-size: 21.5px;
   font-weight: 600;
-  color: #414247;
+  color: #0A102F;
+  margin-bottom: 15px;
 }
 #ourcorevaluesSection p {
-  font-size: 13.5px;
+  font-size: 16.5px;
   line-height: 1.5em;
-  color: #7a7a7a;
-}
-@media (max-width: 991px) {
-  #ourcorevaluesSection .info-content {
-    gap: 0px;
-  }
+  color: #0A102FCC;
 }
 @media (max-width: 800px) {
+  #ourcorevaluesSection .info-content {
+    gap: 15px;
+  }
   #ourcorevaluesSection .col-sm-4 {
     width: 100%;
     flex: none;
-    max-width: 600px;
-    margin: auto;
+    max-width: 625px;
+    margin: 7.5px auto;
+  }
+  #ourcorevaluesSection h3 {
+    margin: 0 10% 7.5%;
   }
 }
 @media (max-width: 575px) {
   #ourcorevaluesSection h3 {
       font-size: 35px;
+      font-size: 35px;
+      margin: 0 0 30px;
   }
 }
 
