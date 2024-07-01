@@ -1797,15 +1797,24 @@ button.navbar-toggler {
 }
 #ourcreativeSection .text-content {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  align-content: center;
 }
 #ourcreativeSection .group-infobox {
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 #ourcreativeSection .info-box {
-  
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 30px;
+}
+#ourcreativeSection .info-box:nth-child(1) {
+  border-bottom: solid 1px #FAF9F5;
+  border-right: solid 1px #FAF9F5;
+}
+#ourcreativeSection .info-box:nth-child(4){
+  border-top: solid 1px #FAF9F5;
+  border-left: solid 1px #FAF9F5;
 }
 #ourcreativeSection .info-box h1 {
   font-size: 65px;
