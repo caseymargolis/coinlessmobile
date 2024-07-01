@@ -1950,6 +1950,7 @@ button.navbar-toggler {
     transition: -webkit-transform 0.45s;
     transition: transform 0.45s;
     transition: transform 0.45s, -webkit-transform 0.45s;
+    width: 965px;
 }
 .h--timeline-filling-line{
     position: absolute;
@@ -2043,7 +2044,7 @@ button.navbar-toggler {
 /* Caroussel navigation */
 /* --------------------------------------- */
 .h--timeline-navigation{
-    font-size: 0;
+    font-size: 20px;
     position: absolute;
     z-index: 1;
     top: 50%;
@@ -2058,19 +2059,12 @@ button.navbar-toggler {
     border-color: #D6D6D6;
     transition: border-color 0.35s;
 }
-.h--timeline-navigation::after{
-    content: '';
+.h--timeline-navigation i {
     position: absolute;
-    height: 16px;
-    width: 16px;
-    top: 50%;
     left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAABQUlEQVRIS9XUwWrCQBAG4JnEhiRHBQut+AY+gEq8tLSvUuih9Ek8iL5K0YMEvPkEHjwo2lYQek2IMdOJJ7tuki5LDnoKyHzZnZn8CJo/1KwHKfB299iMKcHh93Rd9IIL4OX2qX5j0QwRLTpG3uDT3+YhF8B747kaY+Iz0OLCVRxE7dHe32Uh0iucI0SwhIPZGew+9jIks4l/EIAFRGZPhuROQUQqCXb72/HP+UnKA7SuoNVEsfgYRp7SGF/vH2qmacwB0CjagbSZmat8AINGX5ON8ioXFYj/l/M1qpyinBMEQdBMG+w4jnoeEFE9DMMZAxY/e67rquUBF1UZ8Bk45YFt223OBrU8EJAlIx1G1PJAQBaM9GRI7hQkSJeR/+eBFqB1Ba0mSoo9pTEyUOM94DwAo2gHMvMgXWWGiLfwCvLgF1jY2yHNUya7AAAAAElFTkSuQmCC) no-repeat 0 0;}
-.h--timeline-navigation:hover{
-    border-color: var(--primary);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primary);
 }
 .h--timeline-navigation--prev{
     left: 0;
