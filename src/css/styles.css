@@ -2098,6 +2098,9 @@ button.navbar-toggler {
     transition: height .4s;
 	padding-top: 1rem;
 }
+#timelineSection .h--timeline-events p {
+  margin: 0;
+}
 .h--timeline-event{
     position: absolute;
     z-index: 1;
@@ -2115,12 +2118,29 @@ button.navbar-toggler {
     animation-timing-function: ease-in-out;
 }
 .h--timeline-event-content{
-    max-width: 800px!important;
-    margin: 2rem auto 0;
-	padding: 2rem;
+  max-width: 800px !important;
+  margin: 2rem auto 0;
+  padding: 2rem;
   background: #fff;
-	border-radius: 5px;
-	box-shadow: 0 0 50px 0 rgba(0,0,0,.1);
+  border-radius: 5px;
+  border-width: 4.5px 0 0 0;
+  border-color: var(--primary);
+  border-style: solid;
+  position: relative;
+}
+.h--timeline-event-content.container:before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  transform: rotate(45deg);
+  border-style: solid;
+  border-color: var(--primary);
+  z-index: 1;
+  background: #fff;
+  top: -15px;
+  left: 50%;
+  border-width: 4.5px 0 0 4.5px;
 }
 .h--timeline-event--selected{
     position: relative;
