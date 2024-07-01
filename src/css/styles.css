@@ -2408,10 +2408,12 @@ button.navbar-toggler {
   font-weight: 800;
   line-height: 1.125em;
   text-align: center;
+  margin: 0 10% 45px;
 }
 @media (max-width: 575px) {
-  #aboutfeedbackSection h3 {
+  .aboutfeedbackSection h3 {
     font-size: 35px;
+    margin: 0 0 30px;
   }
 }
 
