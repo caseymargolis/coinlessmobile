@@ -5,39 +5,20 @@ var centerCords = {
     lng: 131.036
 };
 var markersOnMap = [{
-        placeName: "Australia (Uluru)",
+        placeName: "Shiny Ride",
         LatLng: [{
-            lat: -25.344,
-            lng: 131.036
-        }]
+            lat: 45.827860,
+            lng: -108.507090
+        }],
+        placeLocation: "1610 Gleneagles Blvd. Billings, MT 59105"
     },
     {
-        placeName: "Australia (Melbourne)",
+        placeName: "Quick Wash Co",
         LatLng: [{
-            lat: -37.852086,
-            lng: 504.985963
-        }]
-    },
-    {
-        placeName: "Australia (Canberra)",
-        LatLng: [{
-            lat: -35.299085,
-            lng: 509.109615
-        }]
-    },
-    {
-        placeName: "Australia (Gold Coast)",
-        LatLng: [{
-            lat: -28.013044,
-            lng: 513.425586
-        }]
-    },
-    {
-        placeName: "Australia (Perth)",
-        LatLng: [{
-            lat: -31.951994,
-            lng: 475.858081
-        }]
+            lat: 41.664170,
+            lng: -93.698910
+        }],
+         placeLocation: "5740 Merle Hay Road Johnston, Iowa 50131"
     }
 ];
 
@@ -47,8 +28,7 @@ window.onload = function () {
 
 function addMarkerInfo() {
     for (var i = 0; i < markersOnMap.length; i++) {
-        var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName +
-            '</h1><p>Lorem ipsum dolor sit amet, vix mutat posse suscipit id, vel ea tantas omittam detraxit.</p></div>';
+        var contentString = '<div id="content"><h1>' + markersOnMap[i].placeName + '</h1><p>' + markersOnMap[i].placeLocation + '</p></div>';
 
         const marker = new google.maps.Marker({
             position: markersOnMap[i].LatLng[0],
@@ -60,16 +40,16 @@ function addMarkerInfo() {
             maxWidth: 200
         });
 
-        marker.addListener('click', function () {
-            closeOtherInfo();
-            infowindow.open(marker.get('map'), marker);
-            InforObj[0] = infowindow;
-        });
-        // marker.addListener('mouseover', function () {
+        // marker.addListener('click', function () {
         //     closeOtherInfo();
         //     infowindow.open(marker.get('map'), marker);
         //     InforObj[0] = infowindow;
         // });
+        marker.addListener('mouseover', function () {
+            closeOtherInfo();
+            infowindow.open(marker.get('map'), marker);
+            InforObj[0] = infowindow;
+        });
         // marker.addListener('mouseout', function () {
         //     closeOtherInfo();
         //     infowindow.close();
@@ -91,7 +71,7 @@ function closeOtherInfo() {
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 10,
+        zoom: 7,
         center: centerCords
     });
     addMarkerInfo();
