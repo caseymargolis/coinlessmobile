@@ -1,8 +1,8 @@
 var map;
 var InforObj = [];
 var centerCords = {
-    lat: -25.344,
-    lng: 131.036
+    lat: 42.664170,
+    lng: -100.698910
 };
 var markersOnMap = [{
         placeName: "Shiny Ride",
@@ -71,7 +71,7 @@ function closeOtherInfo() {
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7,
+        zoom: 5,
         center: centerCords
     });
     addMarkerInfo();
