@@ -32,7 +32,8 @@ function addMarkerInfo() {
 
         const marker = new google.maps.Marker({
             position: markersOnMap[i].LatLng[0],
-            map: map
+            map: map,
+            icon: '/img/coinless-location.webp'
         });
 
         const infowindow = new google.maps.InfoWindow({
