@@ -5,20 +5,40 @@ var centerCords = {
     lng: -100.698910
 };
 var markersOnMap = [{
-        placeName: "Shiny Ride",
+        placeName: "Rods N Dogs Car Wash",
         LatLng: [{
-            lat: 45.827860,
-            lng: -108.507090
+            lat: 46.914560,
+            lng: -114.061030
         }],
-        placeLocation: "1610 Gleneagles Blvd. Billings, MT 59105"
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "4620 Expressway Missoula, Montana 59808"
     },
     {
-        placeName: "Quick Wash Co",
+        placeName: "Wash Montana",
+        LatLng: [{
+            lat: 46.451400,
+            lng: -108.541860
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "1002 Main St.  Roundup, MT 59072"
+    },
+    {
+        placeName: "Shiny Ride",
+        LatLng: [{
+            lat: 45.827862,
+            lng: -108.507088
+        }],
+        placeLogo: "/img/partner-locations/shiny-ride.png",
+        placeLocation: "1610 Gleneagles Blvd.  Billings, MT 59105"
+    },
+    {
+        placeName: "Sudsy South",
         LatLng: [{
             lat: 41.664170,
             lng: -93.698910
         }],
-         placeLocation: "5740 Merle Hay Road Johnston, Iowa 50131"
+        placeLogo: "/img/partner-locations/sudsy-south.png",
+        placeLocation: "5740 Merle Hay Road Johnston, Iowa 50131"
     }
 ];
 
@@ -28,7 +48,7 @@ window.onload = function () {
 
 function addMarkerInfo() {
     for (var i = 0; i < markersOnMap.length; i++) {
-        var contentString = '<div id="content"><h5>' + markersOnMap[i].placeName + '</h5><p>' + markersOnMap[i].placeLocation + '</p></div>';
+        var contentString = '<div id="content"><h6>' + markersOnMap[i].placeName + '</h6><img src="'+ markersOnMap[i].placeLogo +'" /><p>' + markersOnMap[i].placeLocation + '</p></div>';
 
         const marker = new google.maps.Marker({
             position: markersOnMap[i].LatLng[0],
