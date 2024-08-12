@@ -1153,6 +1153,9 @@ button.navbar-toggler {
   margin-left: -15px;
   margin-right: -15px;
 }
+#partnerlocationSection #map #content img {
+  width: 100%;
+}
 @media (max-width: 575px) {
   #partnerlocationSection h3 {
     font-size: 35px;

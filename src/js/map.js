@@ -34,11 +34,11 @@ var markersOnMap = [{
     {
         placeName: "Sudsy South",
         LatLng: [{
-            lat: 41.664170,
-            lng: -93.698910
+            lat: 43.668370,
+            lng: -111.916130
         }],
         placeLogo: "/img/partner-locations/sudsy-south.png",
-        placeLocation: "5740 Merle Hay Road Johnston, Iowa 50131"
+        placeLocation: "147 W 2nd S  Rigby, ID 83442"
     }
 ];
 
@@ -58,7 +58,7 @@ function addMarkerInfo() {
 
         const infowindow = new google.maps.InfoWindow({
             content: contentString,
-            maxWidth: 200
+            maxWidth: 215
         });
 
         // marker.addListener('click', function () {
