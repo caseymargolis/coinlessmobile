@@ -106,8 +106,8 @@ var markersOnMap = [{
     {
         placeName: "31 Top Stop Centerville",
         LatLng: [{
-            lat: 38.918770,
-            lng: -112.382300
+            lat: 40.927340,
+            lng: -111.883840
         }],
         placeLogo: "/img/partner-locations/Top-Stop.png",
         placeLocation: "382 Interstate 15 N, S Frontage Rd Centerville, Utah 84014"
