@@ -1,8 +1,8 @@
 var map;
 var InforObj = [];
 var centerCords = {
-    lat: 42.664170,
-    lng: -100.698910
+    lat: 38.8209673,
+    lng: -97.5691707
 };
 var markersOnMap = [{
         placeName: "Rods N Dogs Car Wash",
