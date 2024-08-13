@@ -227,7 +227,7 @@ var markersOnMap = [{
             lng: -111.855420
         }],
         placeLogo: "/img/partner-locations/Top-Stop.png",
-        placeLocation: "1284 Vine St. Salt Lake City, Utah 84121"
+        placeLocation: "1284 Vine St.<br>Salt Lake City, Utah 84121"
     },
     {
         placeName: "West Jordan Power Wash",
@@ -263,7 +263,7 @@ var markersOnMap = [{
             lng: -111.854160
         }],
         placeLogo: "/img/partner-locations/49.png",
-        placeLocation: "1254 Pioneer Road Draper, Utah 84020"
+        placeLocation: "1254 Pioneer Road<br>Draper, Utah 84020"
     },
     {
         placeName: "17 Top Stop Saratoga Springs",
@@ -272,7 +272,7 @@ var markersOnMap = [{
             lng: -111.917100
         }],
         placeLogo: "/img/partner-locations/Top-Stop.png",
-        placeLocation: "36 Crossroads Blvd. Saratoga Springs, Utah 84045"
+        placeLocation: "36 Crossroads Blvd.<br>Saratoga Springs, Utah 84045"
     },
     {
         placeName: "30 Top Stop Lehi",
@@ -317,7 +317,7 @@ var markersOnMap = [{
             lng: -109.988760
         }],
         placeLogo: "/img/partner-locations/Top-Stop.png",
-        placeLocation: "201 S Main St. Roosevelt, Utah 84066"
+        placeLocation: "201 S Main St.<br>Roosevelt, Utah 84066"
     },
     {
         placeName: "Super Clean Myton",
@@ -326,7 +326,7 @@ var markersOnMap = [{
             lng: -110.081250
         }],
         placeLogo: "/img/partner-locations/Top-Stop.png",
-        placeLocation: "565 US-40 Myton, Utah 84052"
+        placeLocation: "565 US-40<br>Myton, Utah 84052"
     },
     {
         placeName: "Citrus Heights Car Wash",
@@ -335,7 +335,7 @@ var markersOnMap = [{
             lng: -121.289930
         }],
         placeLogo: "/img/partner-locations/171.png",
-        placeLocation: "7742 Auburn Blvd Citrus Heights, CA 95610"
+        placeLocation: "7742 Auburn Blvd<br>Citrus Heights, CA 95610"
     },
     {
         placeName: "Grease Monkey Carwash",
@@ -344,7 +344,7 @@ var markersOnMap = [{
             lng: -113.626020
         }],
         placeLogo: "/img/partner-locations/213.png",
-        placeLocation: "1986 W Sunset Blvd St. George, UT 84770"
+        placeLocation: "1986 W Sunset Blvd<br>St. George, UT 84770"
     },
     {
         placeName: "Decatur Autowash",
@@ -353,7 +353,7 @@ var markersOnMap = [{
             lng: -115.207130
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "4750 N Decatur Blvd  North Las Vegas, NV 89031"
+        placeLocation: "4750 N Decatur Blvd<br>North Las Vegas, NV 89031"
     },
     {
         placeName: "C-Me Wash Self-Service Car Wash",
@@ -362,7 +362,7 @@ var markersOnMap = [{
             lng: -118.768910
         }],
         placeLogo: "/img/partner-locations/coming_soon.webp",
-        placeLocation: "2055 Donville Ave Simi Valley, CA 93065"
+        placeLocation: "2055 Donville Ave<br>Simi Valley, CA 93065"
     },
     {
         placeName: "Dino Wash",
@@ -371,7 +371,7 @@ var markersOnMap = [{
             lng: -117.226150
         }],
         placeLogo: "/img/partner-locations/216.png",
-        placeLocation: "216 S Perris Blvd Perris, CA 92570"
+        placeLocation: "216 S Perris Blvd<br>Perris, CA 92570"
     },
     {
         placeName: "Roadrunner Aztec",
@@ -380,7 +380,7 @@ var markersOnMap = [{
             lng: -108.013910
         }],
         placeLogo: "/img/partner-locations/coming_soon.webp",
-        placeLocation: "1616 W Aztec Blvd Aztec, NM 87410"
+        placeLocation: "1616 W Aztec Blvd<br>Aztec, NM 87410"
     },
     {
         placeName: "Roadrunner Car Wash 4",
@@ -389,7 +389,7 @@ var markersOnMap = [{
             lng: -107.978540
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "912 1st St. Bloomfield, NM 87413"
+        placeLocation: "912 1st St.<br>Bloomfield, NM 87413"
     },
     {
         placeName: "Nimble Wash Bryant",
@@ -398,7 +398,7 @@ var markersOnMap = [{
             lng: -97.461500
         }],
         placeLogo: "/img/partner-locations/96.png",
-        placeLocation: "502 6th Ave E Bryant, South Dakota 57221"
+        placeLocation: "502 6th Ave E<br>Bryant, South Dakota 57221"
     },
     {
         placeName: "Nimble Wash Lake Norden",
@@ -407,7 +407,7 @@ var markersOnMap = [{
             lng: -97.212340
         }],
         placeLogo: "/img/partner-locations/96.png",
-        placeLocation: "1115 Park St. Lake Norden, SD 57248"
+        placeLocation: "1115 Park St.<br>Lake Norden, SD 57248"
     },
     {
         placeName: "Nimble Wash DeSmet",
@@ -416,7 +416,7 @@ var markersOnMap = [{
             lng: -97.551040
         }],
         placeLogo: "/img/partner-locations/96.png",
-        placeLocation: "109 4TH STREET SOUTHWEST DeSmet, SD 57231"
+        placeLocation: "109 4TH STREET SOUTHWEST<br>DeSmet, SD 57231"
     },
     {
         placeName: "The Car Wash Co",
@@ -425,7 +425,7 @@ var markersOnMap = [{
             lng: -93.081000
         }],
         placeLogo: "/img/partner-locations/135.png",
-        placeLocation: "1407 S Robert St West St Paul, Minnesota 55118"
+        placeLocation: "1407 S Robert St<br>West St Paul, Minnesota 55118"
     },
     {
         placeName: "South Carwash",
@@ -434,7 +434,7 @@ var markersOnMap = [{
             lng: -90.183120
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "1508 S. Central Ave  Marshfield, Wisconsin 54449"
+        placeLocation: "1508 S. Central Ave<br>Marshfield, Wisconsin 54449"
     },
     {
         placeName: "Car Tub Car Wash",
@@ -443,7 +443,7 @@ var markersOnMap = [{
             lng: -87.897930
         }],
         placeLogo: "/img/partner-locations/42.png",
-        placeLocation: "1427 W Grand Ave Port Washington, Wisconsin 53074"
+        placeLocation: "1427 W Grand Ave<br>Port Washington, Wisconsin 53074"
     },
     {
         placeName: "24-7 Express Car Wash - Belding",
@@ -452,7 +452,7 @@ var markersOnMap = [{
             lng: -85.248270
         }],
         placeLogo: "/img/partner-locations/43.png",
-        placeLocation: "1239 W. State Road Belding, Michigan 48818"
+        placeLocation: "1239 W. State Road<br>Belding, Michigan 48818"
     },
     {
         placeName: "24-7 Express Car Wash - Saranac",
@@ -461,7 +461,7 @@ var markersOnMap = [{
             lng: -85.214150
         }],
         placeLogo: "/img/partner-locations/43.png",
-        placeLocation: "55 Division Street Saranac, Michigan 48881"
+        placeLocation: "55 Division Street<br>Saranac, Michigan 48881"
     },
     {
         placeName: "Super Shine Express Car Wash",
@@ -470,7 +470,7 @@ var markersOnMap = [{
             lng: -84.588870
         }],
         placeLogo: "/img/partner-locations/48.png",
-        placeLocation: "1213 E. Center Street Ithaca, Michigan 48847"
+        placeLocation: "1213 E. Center Street<br>Ithaca, Michigan 48847"
     },
     {
         placeName: "Kilworth Car Wash",
@@ -479,7 +479,7 @@ var markersOnMap = [{
             lng: -81.412820
         }],
         placeLogo: "/img/partner-locations/232.png",
-        placeLocation: "9 Springfield Way Middlesex Centre, ON N0L 1R0"
+        placeLocation: "9 Springfield Way<br>Middlesex Centre, ON N0L 1R0"
     },
     {
         placeName: "Kilworth Car Wash",
@@ -488,7 +488,7 @@ var markersOnMap = [{
             lng: -81.412820
         }],
         placeLogo: "/img/partner-locations/232.png",
-        placeLocation: "9 Springfield Way Middlesex Centre, ON N0L 1R0"
+        placeLocation: "9 Springfield Way<br>Middlesex Centre, ON N0L 1R0"
     },
     {
         placeName: "Lansing Car Wash",
@@ -497,7 +497,7 @@ var markersOnMap = [{
             lng: -76.499780
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "1901 E Shore Dr Lansing, New York 14882"
+        placeLocation: "1901 E Shore Dr<br>Lansing, New York 14882"
     },
     {
         placeName: "East Hill Car Wash",
@@ -506,7 +506,7 @@ var markersOnMap = [{
             lng: -76.463840
         }],
         placeLogo: "/img/partner-locations/7.png",
-        placeLocation: "383 Pine Tree Rd Ithaca, New York 14850"
+        placeLocation: "383 Pine Tree Rd<br>Ithaca, New York 14850"
     },
     {
         placeName: "Adirondack Car Wash - Main St",
@@ -515,7 +515,7 @@ var markersOnMap = [{
             lng: -73.761980
         }],
         placeLogo: "/img/partner-locations/76.png",
-        placeLocation: "3669 Main St. Warrensburg, NY 12885"
+        placeLocation: "3669 Main St.<br>Warrensburg, NY 12885"
     },
     {
         placeName: "Adirondack Car Wash Broad St",
@@ -524,7 +524,7 @@ var markersOnMap = [{
             lng: -73.662110
         }],
         placeLogo: "/img/partner-locations/76.png",
-        placeLocation: "203 Broad St. Glens Falls, NY 12801"
+        placeLocation: "203 Broad St.<br>Glens Falls, NY 12801"
     },
     {
         placeName: "South End Touch Free Car Wash",
@@ -533,7 +533,7 @@ var markersOnMap = [{
             lng: -73.712640
         }],
         placeLogo: "/img/partner-locations/120.png",
-        placeLocation: "590 1st St. Watervliet, NY 12189"
+        placeLocation: "590 1st St.<br>Watervliet, NY 12189"
     },
     {
         placeName: "Mt. Ivy Car Wash",
@@ -542,7 +542,7 @@ var markersOnMap = [{
             lng: -74.036440
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "11 Thiells Mt Ivy Rd Pomona, New York 10970"
+        placeLocation: "11 Thiells Mt Ivy Rd<br>Pomona, New York 10970"
     },
     {
         placeName: "Bloomingdale Car Wash",
@@ -551,7 +551,7 @@ var markersOnMap = [{
             lng: -74.331050
         }],
         placeLogo: "/img/partner-locations/166.png",
-        placeLocation: "99-101 Main St. Bloomingdale, New Jersey 07403"
+        placeLocation: "99-101 Main St.<br>Bloomingdale, New Jersey 07403"
     },
     {
         placeName: "Waynesboro Water Works",
@@ -560,7 +560,7 @@ var markersOnMap = [{
             lng: -77.584770
         }],
         placeLogo: "/img/partner-locations/72.png",
-        placeLocation: "324 W Main St. Waynesboro, PA 17268"
+        placeLocation: "324 W Main St.<br>Waynesboro, PA 17268"
     },
     {
         placeName: "EZ Express Wash",
@@ -569,7 +569,7 @@ var markersOnMap = [{
             lng: -78.191750
         }],
         placeLogo: "/img/partner-locations/coming_soon.webp",
-        placeLocation: "115 S St. Front Royal, VA 22630"
+        placeLocation: "115 S St.<br>Front Royal, VA 22630"
     },
     {
         placeName: "Sami's Car Wash at New Circle Rd",
@@ -578,7 +578,7 @@ var markersOnMap = [{
             lng: -84.463530
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "370 E. New Circle Road Lexington, Kentucky 40505"
+        placeLocation: "370 E. New Circle Road<br>Lexington, Kentucky 40505"
     },
     {
         placeName: "Sami's Car Wash at Winchester Rd",
@@ -587,7 +587,7 @@ var markersOnMap = [{
             lng: -84.464200
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "1109 Winchester Road Lexington, Kentucky 40505"
+        placeLocation: "1109 Winchester Road<br>Lexington, Kentucky 40505"
     },
     {
         placeName: "Shammy's Auto Wash",
@@ -596,7 +596,7 @@ var markersOnMap = [{
             lng: -84.456070
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "2632 Richmond Road Lexington, KY 40509"
+        placeLocation: "2632 Richmond Road<br>Lexington, KY 40509"
     },
     {
         placeName: "Water Works Car Wash - Jtown",
@@ -605,7 +605,7 @@ var markersOnMap = [{
             lng: -85.598670
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "8820 Salsman Drive Louisville, Kentucky 40220"
+        placeLocation: "8820 Salsman Drive<br>Louisville, Kentucky 40220"
     },
     {
         placeName: "Starwash Car Wash",
@@ -614,7 +614,7 @@ var markersOnMap = [{
             lng: -88.9959891
         }],
         placeLogo: "/img/partner-locations/210.png",
-        placeLocation: "1302 S Madison Normal, IL 61761"
+        placeLocation: "1302 S Madison<br>Normal, IL 61761"
     },
     {
         placeName: "Quick Wash Co",
@@ -623,7 +623,7 @@ var markersOnMap = [{
             lng: -93.698910
         }],
         placeLogo: "/img/partner-locations/37.png",
-        placeLocation: "5740 Merle Hay Road Johnston, Iowa 50131"
+        placeLocation: "5740 Merle Hay Road<br>Johnston, Iowa 50131"
     },
     {
         placeName: "Baldwin Power Wash",
@@ -632,7 +632,7 @@ var markersOnMap = [{
             lng: -95.181350
         }],
         placeLogo: "/img/partner-locations/143.png",
-        placeLocation: "219 E HWY 56 BALDWIN CITY, Kansas 66006"
+        placeLocation: "219 E HWY 56<br>BALDWIN CITY, Kansas 66006"
     },
     {
         placeName: "Waterworks Co No 1",
@@ -641,7 +641,7 @@ var markersOnMap = [{
             lng: -93.4003157
         }],
         placeLogo: "/img/partner-locations/206.png",
-        placeLocation: "1100 E Broadway St. Bolivar, MO 65613"
+        placeLocation: "1100 E Broadway St<br>Bolivar, MO 65613"
     },
     {
         placeName: "5 Star Car Wash",
@@ -650,7 +650,7 @@ var markersOnMap = [{
             lng: -95.8501866
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "6201 S Garnett Rd Broken Arrow, Oklahoma 74012"
+        placeLocation: "6201 S Garnett Rd<br>Broken Arrow, Oklahoma 74012"
     },
     {
         placeName: "Extreme Clean Truck and Autowash",
