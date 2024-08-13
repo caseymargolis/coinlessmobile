@@ -760,6 +760,87 @@ var markersOnMap = [{
         placeLogo: "/img/partner-locations/coinless_default.png",
         placeLocation: "201 S Texas Blvd<br>Alice, TX 78332"
     },
+    {
+        placeName: "Happy Days Car Wash",
+        LatLng: [{
+            lat: 30.8383681,
+            lng: -91.2186944
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "3157 Race St<br>Jackson, Louisiana 70748"
+    },
+    {
+        placeName: "Clinton Auto Spa",
+        LatLng: [{
+            lat: 30.8455103,
+            lng: -91.0012875
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "9171 Plank Rd<br>Clinton, LA 70722"
+    },
+    {
+        placeName: "USA Carwash",
+        LatLng: [{
+            lat: 29.9630504,
+            lng: -90.2236106
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "10212 Jefferson Highway<br>River Ridge, Louisiana 70123"
+    },
+    {
+        placeName: "Cahaba Falls Car Wash",
+        LatLng: [{
+            lat: 33.3833159,
+            lng: -86.7408986
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "2638 Valleydale Road<br>Birmingham, AL 35244"
+    },
+    {
+        placeName: "Supa Suds 5660",
+        LatLng: [{
+            lat: 32.8345448,
+            lng: -83.7469153
+        }],
+        placeLogo: "/img/partner-locations/coming_soon.webp",
+        placeLocation: "5660 Thomaston Road<br>Macon, GA 31220"
+    },
+    {
+        placeName: "Dazzle Car Wash # 1",
+        LatLng: [{
+            lat: 34.216507,
+            lng: -82.156055
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "1524 Bypass 72 NE<br>Greenwood, South Carolina 29649"
+    },
+    {
+        placeName: "Americas Finest Car Wash",
+        LatLng: [{
+            lat: 35.0701967,
+            lng: -80.9352864
+        }],
+        placeLogo: "/img/partner-locations/161.png",
+        placeLocation: "2430 US Highway 21<br>Fort Mill, SC 29715"
+    },
+    {
+        placeName: "TNT Car Wash South",
+        LatLng: [{
+            lat: 28.0015063,
+            lng: -81.9492992
+        }],
+        placeLogo: "/img/partner-locations/58.png",
+        placeLocation: "3425 Cleveland Heights Blvd<br>Lakeland, Florida 33803"
+    },
+    {
+        placeName: "Suds N Shine Carwash",
+        LatLng: [{
+            lat: 27.6030288,
+            lng: -80.4301286
+        }],
+        placeLogo: "/img/partner-locations/156.png",
+        placeLocation: "60 43rd Ave<br>Vero Beach, Florida 32968"
+    },
 ];
 
 window.onload = function () {
