@@ -148,6 +148,96 @@ var markersOnMap = [{
         placeLogo: "/img/partner-locations/coinless_default.png",
         placeLocation: "3532 4400 W West Valley City, Utah 8412"
     },
+    {
+        placeName: "Coinless Demo Wash 2",
+        LatLng: [{
+            lat: 40.702750,
+            lng: -111.854410
+        }],
+        placeLogo: "/img/partner-locations/137.png",
+        placeLocation: "3135 Richmond St. Salt Lake City, UT 84106"
+    },
+    {
+        placeName: "Millcreek Car Wash",
+        LatLng: [{
+            lat: 40.686650,
+            lng: -111.864570
+        }],
+        placeLogo: "/img/partner-locations/164.png",
+        placeLocation: "910 E 3900 S Millcreek, Utah 84124"
+    },
+    {
+        placeName: "Holladay Car Wash",
+        LatLng: [{
+            lat: 40.685040,
+            lng: -111.815970
+        }],
+        placeLogo: "/img/partner-locations/1.png",
+        placeLocation: "4002 South 2700 East Holladay, Utah 84124"
+    },
+    {
+        placeName: "45 Top Stop Holladay",
+        LatLng: [{
+            lat: 40.673930,
+            lng: -111.824040
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "2322 E 4500 S Holladay, UT 84117"
+    },
+    {
+        placeName: "Bolt Wash 2",
+        LatLng: [{
+            lat: 40.652670,
+            lng: -111.978930
+        }],
+        placeLogo: "/img/partner-locations/4.png",
+        placeLocation: "3685 W 5400 S Salt Lake City, Utah 84129"
+    },
+    {
+        placeName: "Bolt Wash 1",
+        LatLng: [{
+            lat: 40.653520,
+            lng: -111.948030
+        }],
+        placeLogo: "/img/partner-locations/4.png",
+        placeLocation: "2192 West 5400 South Taylorsville, Utah 84095"
+    },
+    {
+        placeName: "53 Top Stop Murray",
+        LatLng: [{
+            lat: 40.653670,
+            lng: -111.908080
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "609 W 5300 S Murray, Utah 84123"
+    },
+    {
+        placeName: "Murray Car Wash",
+        LatLng: [{
+            lat: 40.643350,
+            lng: -111.866020
+        }],
+        placeLogo: "/img/partner-locations/91.png",
+        placeLocation: "5868 South 900 East Salt Lake City, UT 84121"
+    },
+    {
+        placeName: "61 Top Stop Vine St",
+        LatLng: [{
+            lat: 40.639980,
+            lng: -111.855420
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "1284 Vine St. Salt Lake City, Utah 84121"
+    },
+    {
+        placeName: "West Jordan Power Wash",
+        LatLng: [{
+            lat: 40.608760,
+            lng: -111.969210
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "7845 Old Bingham Highway West Jordan, Utah 84088"
+    },
 ];
 
 window.onload = function () {
