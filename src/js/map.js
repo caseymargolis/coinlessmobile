@@ -610,8 +610,8 @@ var markersOnMap = [{
     {
         placeName: "Starwash Car Wash",
         LatLng: [{
-            lat: 47.248910,
-            lng: -122.490720
+            lat: 40.497697,
+            lng: -88.9959891
         }],
         placeLogo: "/img/partner-locations/210.png",
         placeLocation: "1302 S Madison Normal, IL 61761"
