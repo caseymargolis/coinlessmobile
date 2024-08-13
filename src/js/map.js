@@ -39,7 +39,25 @@ var markersOnMap = [{
         }],
         placeLogo: "/img/partner-locations/sudsy-south.png",
         placeLocation: "147 W 2nd S  Rigby, ID 83442"
-    }
+    },
+    {
+        placeName: "Shelley Car Wash",
+        LatLng: [{
+            lat: 43.373970,
+            lng: -112.129640
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "510 S State St  Shelley, ID 83274"
+    },
+    {
+        placeName: "Bengal Car Wash 1",
+        LatLng: [{
+            lat: 42.894560,
+            lng: -112.452410
+        }],
+        placeLogo: "/img/partner-locations/Bengal-Car-Wash-1.png",
+        placeLocation: "1053 Yellowstone Ave  Pocatello, Idaho 83201"
+    },
 ];
 
 window.onload = function () {
