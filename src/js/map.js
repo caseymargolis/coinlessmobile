@@ -854,7 +854,8 @@ function addMarkerInfo() {
         const marker = new google.maps.Marker({
             position: markersOnMap[i].LatLng[0],
             map: map,
-            icon: '/img/coinless-location.webp'
+            icon: '/img/coinless-location.webp',
+            animation: google.maps.Animation.DROP
         });
 
         const infowindow = new google.maps.InfoWindow({
