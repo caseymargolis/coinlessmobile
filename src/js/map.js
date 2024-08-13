@@ -652,6 +652,15 @@ var markersOnMap = [{
         placeLogo: "/img/partner-locations/coinless_default.png",
         placeLocation: "6201 S Garnett Rd Broken Arrow, Oklahoma 74012"
     },
+    {
+        placeName: "Extreme Clean Truck and Autowash",
+        LatLng: [{
+            lat: 35.7442541,
+            lng: -98.7405907
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "617 E Broadway<br>Thomas, OK 73669"
+    },
 ];
 
 window.onload = function () {
