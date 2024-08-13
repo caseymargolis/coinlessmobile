@@ -238,6 +238,96 @@ var markersOnMap = [{
         placeLogo: "/img/partner-locations/coinless_default.png",
         placeLocation: "7845 Old Bingham Highway West Jordan, Utah 84088"
     },
+    {
+        placeName: "24 Top Stop Tooele",
+        LatLng: [{
+            lat: 40.572300,
+            lng: -112.296220
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "322 East 2400 North Tooele, Utah 84074"
+    },
+    {
+        placeName: "Monster Car wash",
+        LatLng: [{
+            lat: 40.521790,
+            lng: -111.967510
+        }],
+        placeLogo: "/img/partner-locations/3.png",
+        placeLocation: "3191 W 12600 S Riverton, Utah 84065"
+    },
+    {
+        placeName: "Pioneer Auto Spa",
+        LatLng: [{
+            lat: 40.525090,
+            lng: -111.854160
+        }],
+        placeLogo: "/img/partner-locations/49.png",
+        placeLocation: "1254 Pioneer Road Draper, Utah 84020"
+    },
+    {
+        placeName: "17 Top Stop Saratoga Springs",
+        LatLng: [{
+            lat: 40.388130,
+            lng: -111.917100
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "36 Crossroads Blvd. Saratoga Springs, Utah 84045"
+    },
+    {
+        placeName: "30 Top Stop Lehi",
+        LatLng: [{
+            lat: 40.387160,
+            lng: -111.835880
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "114 South 850 East Lehi, Utah 84043"
+    },
+    {
+        placeName: "Coinless Ever Wash",
+        LatLng: [{
+            lat: 40.488470,
+            lng: -111.268310
+        }],
+        placeLogo: "/img/partner-locations/248.png",
+        placeLocation: "9284 tree top circle UT, Utah 84032"
+    },
+    {
+        placeName: "41 Top Stop Vernal",
+        LatLng: [{
+            lat: 40.455930,
+            lng: -109.541920
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "722 West Main Vernal, Utah 84078"
+    },
+    {
+        placeName: "67 Top Stop Roosevelt",
+        LatLng: [{
+            lat: 40.302530,
+            lng: -109.983780
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "521 E 200 N Roosevelt, Utah 84066"
+    },
+    {
+        placeName: "68 Top Stop Super Clean",
+        LatLng: [{
+            lat: 40.296770,
+            lng: -109.988760
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "201 S Main St. Roosevelt, Utah 84066"
+    },
+    {
+        placeName: "Super Clean Myton",
+        LatLng: [{
+            lat: 40.191080,
+            lng: -110.081250
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "565 US-40 Myton, Utah 84052"
+    },
 ];
 
 window.onload = function () {
