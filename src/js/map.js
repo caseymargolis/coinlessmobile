@@ -532,7 +532,7 @@ var markersOnMap = [{
             lat: 42.707590,
             lng: -73.712640
         }],
-        placeLogo: "/img/partner-locations/120png",
+        placeLogo: "/img/partner-locations/120.png",
         placeLocation: "590 1st St. Watervliet, NY 12189"
     },
     {
@@ -552,6 +552,105 @@ var markersOnMap = [{
         }],
         placeLogo: "/img/partner-locations/166.png",
         placeLocation: "99-101 Main St. Bloomingdale, New Jersey 07403"
+    },
+    {
+        placeName: "Waynesboro Water Works",
+        LatLng: [{
+            lat: 39.759080,
+            lng: -77.584770
+        }],
+        placeLogo: "/img/partner-locations/72.png",
+        placeLocation: "324 W Main St. Waynesboro, PA 17268"
+    },
+    {
+        placeName: "EZ Express Wash",
+        LatLng: [{
+            lat: 38.911480,
+            lng: -78.191750
+        }],
+        placeLogo: "/img/partner-locations/coming_soon.webp",
+        placeLocation: "115 S St. Front Royal, VA 22630"
+    },
+    {
+        placeName: "Sami's Car Wash at New Circle Rd",
+        LatLng: [{
+            lat: 38.058020,
+            lng: -84.463530
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "370 E. New Circle Road Lexington, Kentucky 40505"
+    },
+    {
+        placeName: "Sami's Car Wash at Winchester Rd",
+        LatLng: [{
+            lat: 38.042690,
+            lng: -84.464200
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "1109 Winchester Road Lexington, Kentucky 40505"
+    },
+    {
+        placeName: "Shammy's Auto Wash",
+        LatLng: [{
+            lat: 38.009760,
+            lng: -84.456070
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "2632 Richmond Road Lexington, KY 40509"
+    },
+    {
+        placeName: "Water Works Car Wash - Jtown",
+        LatLng: [{
+            lat: 38.217410,
+            lng: -85.598670
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "8820 Salsman Drive Louisville, Kentucky 40220"
+    },
+    {
+        placeName: "Starwash Car Wash",
+        LatLng: [{
+            lat: 47.248910,
+            lng: -122.490720
+        }],
+        placeLogo: "/img/partner-locations/210.png",
+        placeLocation: "1302 S Madison Normal, IL 61761"
+    },
+    {
+        placeName: "Quick Wash Co",
+        LatLng: [{
+            lat: 41.664170,
+            lng: -93.698910
+        }],
+        placeLogo: "/img/partner-locations/37.png",
+        placeLocation: "5740 Merle Hay Road Johnston, Iowa 50131"
+    },
+    {
+        placeName: "Baldwin Power Wash",
+        LatLng: [{
+            lat: 38.781600,
+            lng: -95.181350
+        }],
+        placeLogo: "/img/partner-locations/143.png",
+        placeLocation: "219 E HWY 56 BALDWIN CITY, Kansas 66006"
+    },
+    {
+        placeName: "Waterworks Co No 1",
+        LatLng: [{
+            lat: 37.6147534,
+            lng: -93.4003157
+        }],
+        placeLogo: "/img/partner-locations/206.png",
+        placeLocation: "1100 E Broadway St. Bolivar, MO 65613"
+    },
+    {
+        placeName: "5 Star Car Wash",
+        LatLng: [{
+            lat: 36.0738345,
+            lng: -95.8501866
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "6201 S Garnett Rd Broken Arrow, Oklahoma 74012"
     },
 ];
 
