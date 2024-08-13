@@ -4,7 +4,9 @@ var centerCords = {
     lat: 38.8209673,
     lng: -97.5691707
 };
-var markersOnMap = [{
+var markersOnMap = [
+    // Locations for USA
+    {
         placeName: "Rods N Dogs Car Wash",
         LatLng: [{
             lat: 46.914560,
@@ -841,6 +843,98 @@ var markersOnMap = [{
         placeLogo: "/img/partner-locations/156.png",
         placeLocation: "60 43rd Ave<br>Vero Beach, Florida 32968"
     },
+    // Locations for NZ
+    {
+        placeName: "Uwash Papakura",
+        LatLng: [{
+            lat: -37.0599328,
+            lng: 174.9401971
+        }],
+        placeLogo: "/img/partner-locations/113.png",
+        placeLocation: "101B Great South Road<br>Papakura, Auckland 2112"
+    },
+    {
+        placeName: "Wash'n Go",
+        LatLng: [{
+            lat: -38.6628361,
+            lng: 178.0176335
+        }],
+        placeLogo: "/img/partner-locations/144.png",
+        placeLocation: "156 Carnarvon Street<br>Gisborne, Gisborne 4010"
+    },
+    {
+        placeName: "Total Wash Motorworld Group",
+        LatLng: [{
+            lat: -41.5171082,
+            lng: 173.9569473
+        }],
+        placeLogo: "/img/partner-locations/95.png",
+        placeLocation: "Francis St.<br>Blenheim, Marlborough 7201"
+    },
+    {
+        placeName: "Big Daves Car Wash",
+        LatLng: [{
+            lat: -43.389407,
+            lng: 172.654273
+        }],
+        placeLogo: "/img/partner-locations/112.png",
+        placeLocation: "80 Williams Street<street>Kaiapoi, North Canterbury 7630"
+    },
+    // Locations for AU
+    {
+        placeName: "Blitz Car Spa and Dog Wash NB",
+        LatLng: [{
+            lat: -21.0625394,
+            lng: 149.1589692
+        }],
+        placeLogo: "/img/partner-locations/134.png",
+        placeLocation: "41-43 Arana Dr<br>Rural View, QLD 4740"
+    },
+    {
+        placeName: "Blitz Car Spa and Dog Wash BC",
+        LatLng: [{
+            lat: -25.295840,
+            lng: 152.837420
+        }],
+        placeLogo: "/img/partner-locations/134.png",
+        placeLocation: "164 Main St<br>Hervey Bay, Queensland 4655"
+    },
+    {
+        placeName: "True Blue Car Wash",
+        LatLng: [{
+            lat: -28.004630,
+            lng: 153.340310
+        }],
+        placeLogo: "/img/partner-locations/101.png",
+        placeLocation: "17 Hinkler Drive<br>Nerang, Queensland 4211"
+    },
+    {
+        placeName: "Tamworth Car and Dog Wash",
+        LatLng: [{
+            lat: -31.110070,
+            lng: 150.922660
+        }],
+        placeLogo: "/img/partner-locations/154.png",
+        placeLocation: "231 Goonoo Goonoo Rd<br>South Tamworth, NSW 2340"
+    },
+    {
+        placeName: "Quick N Clean Old Noarlunga",
+        LatLng: [{
+            lat: -35.185980,
+            lng: 138.490790
+        }],
+        placeLogo: "/img/partner-locations/122.png",
+        placeLocation: "47 Eric Rd.<br>Old Noarlunga, South Australia 5168"
+    },
+    {
+        placeName: "Velocity Wash",
+        LatLng: [{
+            lat: -37.811110,
+            lng: 144.858690
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "10 Holmwood Rd<br>Tottenham, Victoria 3012"
+    }
 ];
 
 window.onload = function () {
