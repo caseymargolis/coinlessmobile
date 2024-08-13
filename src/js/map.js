@@ -332,7 +332,7 @@ var markersOnMap = [{
         placeName: "Citrus Heights Car Wash",
         LatLng: [{
             lat: 38.706790,
-            lng: -110.081250
+            lng: -121.289930
         }],
         placeLogo: "/img/partner-locations/171.png",
         placeLocation: "7742 Auburn Blvd Citrus Heights, CA 95610"
