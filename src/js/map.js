@@ -20,7 +20,7 @@ var markersOnMap = [{
             lng: -108.541860
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "1002 Main St.  Roundup, MT 59072"
+        placeLocation: "1002 Main St. Roundup, MT 59072"
     },
     {
         placeName: "Shiny Ride",
@@ -29,7 +29,7 @@ var markersOnMap = [{
             lng: -108.507088
         }],
         placeLogo: "/img/partner-locations/shiny-ride.png",
-        placeLocation: "1610 Gleneagles Blvd.  Billings, MT 59105"
+        placeLocation: "1610 Gleneagles Blvd. Billings, MT 59105"
     },
     {
         placeName: "Sudsy South",
@@ -38,7 +38,7 @@ var markersOnMap = [{
             lng: -111.916130
         }],
         placeLogo: "/img/partner-locations/sudsy-south.png",
-        placeLocation: "147 W 2nd S  Rigby, ID 83442"
+        placeLocation: "147 W 2nd S Rigby, ID 83442"
     },
     {
         placeName: "Shelley Car Wash",
@@ -47,7 +47,7 @@ var markersOnMap = [{
             lng: -112.129640
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "510 S State St  Shelley, ID 83274"
+        placeLocation: "510 S State St. Shelley, ID 83274"
     },
     {
         placeName: "Bengal Car Wash 1",
@@ -56,7 +56,97 @@ var markersOnMap = [{
             lng: -112.452410
         }],
         placeLogo: "/img/partner-locations/Bengal-Car-Wash-1.png",
-        placeLocation: "1053 Yellowstone Ave  Pocatello, Idaho 83201"
+        placeLocation: "1053 Yellowstone Ave Pocatello, Idaho 83201"
+    },
+    {
+        placeName: "34 Top Stop North Logan",
+        LatLng: [{
+            lat: 41.766350,
+            lng: -111.833480
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "1936 North Main North Logan, Utah 84341"
+    },
+    {
+        placeName: "33 Top Stop Logan",
+        LatLng: [{
+            lat: 41.749750,
+            lng: -111.834110
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "970 North Main St. Logan, Utah 84321"
+    },
+    {
+        placeName: "32 Top Stop Brigham City",
+        LatLng: [{
+            lat: 41.487050,
+            lng: -112.026880
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "1095 South 500 West Brigham City, Utah 84302"
+    },
+    {
+        placeName: "12 Top Stop Ogden",
+        LatLng: [{
+            lat: 41.245230,
+            lng: -112.010020
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "1210 W 12th St. Ogden, Utah 84108"
+    },
+    {
+        placeName: "51 Top Stop Kaysville",
+        LatLng: [{
+            lat: 41.038760,
+            lng: -111.944660
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "320 West 200 North Kaysville, Utah 84037"
+    },
+    {
+        placeName: "31 Top Stop Centerville",
+        LatLng: [{
+            lat: 38.918770,
+            lng: -112.382300
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "382 Interstate 15 N, S Frontage Rd Centerville, Utah 84014"
+    },
+    {
+        placeName: "Coinless Demo Wash",
+        LatLng: [{
+            lat: 40.785500,
+            lng: -111.900520
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "321 W Reed Ave Salt Lake City, UT 84103"
+    },
+    {
+        placeName: "18 Top Stop Bangerter",
+        LatLng: [{
+            lat: 40.730820,
+            lng: -111.985450
+        }],
+        placeLogo: "/img/partner-locations/Top-Stop.png",
+        placeLocation: "4025 W 1820 S Salt Lake City, Utah 84104"
+    },
+    {
+        placeName: "The Salty Dog Car and Pet Wash",
+        LatLng: [{
+            lat: 40.707220,
+            lng: -112.026340
+        }],
+        placeLogo: "/img/partner-locations/123.png",
+        placeLocation: "2912 S Glen Eagle Dr West Valley City, UT 84128"
+    },
+    {
+        placeName: "West Valley Power Wash",
+        LatLng: [{
+            lat: 40.695950,
+            lng: -111.996610
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "3532 4400 W West Valley City, Utah 8412"
     },
 ];
 
