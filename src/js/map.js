@@ -661,6 +661,105 @@ var markersOnMap = [{
         placeLogo: "/img/partner-locations/coinless_default.png",
         placeLocation: "617 E Broadway<br>Thomas, OK 73669"
     },
+    {
+        placeName: "Broadway Car Wash",
+        LatLng: [{
+            lat: 34.6375237,
+            lng: -99.3254039
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "704 E. Broadway<br>Altus, Oklahoma 73521"
+    },
+    {
+        placeName: "OUTLAW CARWASH",
+        LatLng: [{
+            lat: 34.659093,
+            lng: -97.9573027
+        }],
+        placeLogo: "/img/partner-locations/215.png",
+        placeLocation: "1008 N Broadway St<br>Marlow, OK 73055"
+    },
+    {
+        placeName: "Cougar Car Wash",
+        LatLng: [{
+            lat: 33.0795133,
+            lng: -96.8937833
+        }],
+        placeLogo: "/img/partner-locations/71.png",
+        placeLocation: "4908 Westport Dr.<br>The Colony, TX 75056"
+    },
+    {
+        placeName: "Wash Your Stuff Keller Car Wash",
+        LatLng: [{
+            lat: 32.9394836,
+            lng: -97.2525695
+        }],
+        placeLogo: "/img/partner-locations/41.png",
+        placeLocation: "412 N Main St.<br>Keller, Texas 76248"
+    },
+    {
+        placeName: "Wash Your Stuff Grapevine",
+        LatLng: [{
+            lat: 32.9283436,
+            lng: -97.1017686
+        }],
+        placeLogo: "/img/partner-locations/180.png",
+        placeLocation: "2201 Ira E Woods Ave<br>Grapevine, TX 76051"
+    },
+    {
+        placeName: "Apollo 24h Car Wash",
+        LatLng: [{
+            lat: 32.8641749,
+            lng: -97.2631996
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "6424 Denton Hwy<br>Watauga, TX 76148"
+    },
+    {
+        placeName: "Wash Your Stuff - Grand Prairie",
+        LatLng: [{
+            lat: 32.7473763,
+            lng: -96.9950571
+        }],
+        placeLogo: "/img/partner-locations/coming_soon.webp",
+        placeLocation: "718 E Davis St<br>Grand Prairie, TX 75050"
+    },
+    {
+        placeName: "Kwik Kar Wash 1",
+        LatLng: [{
+            lat: 32.6591793,
+            lng: -97.1137697
+        }],
+        placeLogo: "/img/partner-locations/52.png",
+        placeLocation: "120 SE Green Oaks Blvd.<br>Arlington, Texas 76018"
+    },
+    {
+        placeName: "Kwik Kar Wash 2",
+        LatLng: [{
+            lat: 32.6591285,
+            lng: -97.167466
+        }],
+        placeLogo: "/img/partner-locations/52.png",
+        placeLocation: "5400 Park Springs Blvd.<br>Arlington, Texas 76017"
+    },
+    {
+        placeName: "Kwik Kar Wash 3",
+        LatLng: [{
+            lat: 32.6469144,
+            lng: -97.1835721
+        }],
+        placeLogo: "/img/partner-locations/52.png",
+        placeLocation: "6036 Myers Rd.<br>Arlington, Texas 76017"
+    },
+    {
+        placeName: "Astromatic Car Wash",
+        LatLng: [{
+            lat: 27.7489875,
+            lng: -98.0642587
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "201 S Texas Blvd<br>Alice, TX 78332"
+    },
 ];
 
 window.onload = function () {
