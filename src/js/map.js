@@ -328,6 +328,69 @@ var markersOnMap = [{
         placeLogo: "/img/partner-locations/Top-Stop.png",
         placeLocation: "565 US-40 Myton, Utah 84052"
     },
+    {
+        placeName: "Citrus Heights Car Wash",
+        LatLng: [{
+            lat: 38.706790,
+            lng: -110.081250
+        }],
+        placeLogo: "/img/partner-locations/171.png",
+        placeLocation: "7742 Auburn Blvd Citrus Heights, CA 95610"
+    },
+    {
+        placeName: "Grease Monkey Carwash",
+        LatLng: [{
+            lat: 37.123650,
+            lng: -113.626020
+        }],
+        placeLogo: "/img/partner-locations/213.png",
+        placeLocation: "1986 W Sunset Blvd St. George, UT 84770"
+    },
+    {
+        placeName: "Decatur Autowash",
+        LatLng: [{
+            lat: 36.245940,
+            lng: -115.207130
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "4750 N Decatur Blvd  North Las Vegas, NV 89031"
+    },
+    {
+        placeName: "C-Me Wash Self-Service Car Wash",
+        LatLng: [{
+            lat: 34.272560,
+            lng: -118.768910
+        }],
+        placeLogo: "/img/partner-locations/coming_soon.webp",
+        placeLocation: "2055 Donville Ave Simi Valley, CA 93065"
+    },
+    {
+        placeName: "Dino Wash",
+        LatLng: [{
+            lat: 33.784080,
+            lng: -117.226150
+        }],
+        placeLogo: "/img/partner-locations/216.png",
+        placeLocation: "216 S Perris Blvd Perris, CA 92570"
+    },
+    {
+        placeName: "Roadrunner Aztec",
+        LatLng: [{
+            lat: 36.826700,
+            lng: -108.013910
+        }],
+        placeLogo: "/img/partner-locations/coming_soon.webp",
+        placeLocation: "1616 W Aztec Blvd Aztec, NM 87410"
+    },
+    {
+        placeName: "Roadrunner Car Wash 4",
+        LatLng: [{
+            lat: 36.720000,
+            lng: -107.978540
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "912 1st St  Bloomfield, NM 87413"
+    },
 ];
 
 window.onload = function () {
