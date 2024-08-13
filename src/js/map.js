@@ -389,7 +389,169 @@ var markersOnMap = [{
             lng: -107.978540
         }],
         placeLogo: "/img/partner-locations/coinless_default.png",
-        placeLocation: "912 1st St  Bloomfield, NM 87413"
+        placeLocation: "912 1st St. Bloomfield, NM 87413"
+    },
+    {
+        placeName: "Nimble Wash Bryant",
+        LatLng: [{
+            lat: 44.587910,
+            lng: -97.461500
+        }],
+        placeLogo: "/img/partner-locations/96.png",
+        placeLocation: "502 6th Ave E Bryant, South Dakota 57221"
+    },
+    {
+        placeName: "Nimble Wash Lake Norden",
+        LatLng: [{
+            lat: 44.581570,
+            lng: -97.212340
+        }],
+        placeLogo: "/img/partner-locations/96.png",
+        placeLocation: "1115 Park St. Lake Norden, SD 57248"
+    },
+    {
+        placeName: "Nimble Wash DeSmet",
+        LatLng: [{
+            lat: 44.383700,
+            lng: -97.551040
+        }],
+        placeLogo: "/img/partner-locations/96.png",
+        placeLocation: "109 4TH STREET SOUTHWEST DeSmet, SD 57231"
+    },
+    {
+        placeName: "The Car Wash Co",
+        LatLng: [{
+            lat: 44.903720,
+            lng: -93.081000
+        }],
+        placeLogo: "/img/partner-locations/135.png",
+        placeLocation: "1407 S Robert St West St Paul, Minnesota 55118"
+    },
+    {
+        placeName: "South Carwash",
+        LatLng: [{
+            lat: 44.654120,
+            lng: -90.183120
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "1508 S. Central Ave  Marshfield, Wisconsin 54449"
+    },
+    {
+        placeName: "Car Tub Car Wash",
+        LatLng: [{
+            lat: 43.386190,
+            lng: -87.897930
+        }],
+        placeLogo: "/img/partner-locations/42.png",
+        placeLocation: "1427 W Grand Ave Port Washington, Wisconsin 53074"
+    },
+    {
+        placeName: "24-7 Express Car Wash - Belding",
+        LatLng: [{
+            lat: 43.088660,
+            lng: -85.248270
+        }],
+        placeLogo: "/img/partner-locations/43.png",
+        placeLocation: "1239 W. State Road Belding, Michigan 48818"
+    },
+    {
+        placeName: "24-7 Express Car Wash - Saranac",
+        LatLng: [{
+            lat: 42.929320,
+            lng: -85.214150
+        }],
+        placeLogo: "/img/partner-locations/43.png",
+        placeLocation: "55 Division Street Saranac, Michigan 48881"
+    },
+    {
+        placeName: "Super Shine Express Car Wash",
+        LatLng: [{
+            lat: 43.292060,
+            lng: -84.588870
+        }],
+        placeLogo: "/img/partner-locations/48.png",
+        placeLocation: "1213 E. Center Street Ithaca, Michigan 48847"
+    },
+    {
+        placeName: "Kilworth Car Wash",
+        LatLng: [{
+            lat: 42.958000,
+            lng: -81.412820
+        }],
+        placeLogo: "/img/partner-locations/232.png",
+        placeLocation: "9 Springfield Way Middlesex Centre, ON N0L 1R0"
+    },
+    {
+        placeName: "Kilworth Car Wash",
+        LatLng: [{
+            lat: 42.958000,
+            lng: -81.412820
+        }],
+        placeLogo: "/img/partner-locations/232.png",
+        placeLocation: "9 Springfield Way Middlesex Centre, ON N0L 1R0"
+    },
+    {
+        placeName: "Lansing Car Wash",
+        LatLng: [{
+            lat: 42.527710,
+            lng: -76.499780
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "1901 E Shore Dr Lansing, New York 14882"
+    },
+    {
+        placeName: "East Hill Car Wash",
+        LatLng: [{
+            lat: 42.438380,
+            lng: -76.463840
+        }],
+        placeLogo: "/img/partner-locations/7.png",
+        placeLocation: "383 Pine Tree Rd Ithaca, New York 14850"
+    },
+    {
+        placeName: "Adirondack Car Wash - Main St",
+        LatLng: [{
+            lat: 43.488340,
+            lng: -73.761980
+        }],
+        placeLogo: "/img/partner-locations/76.png",
+        placeLocation: "3669 Main St. Warrensburg, NY 12885"
+    },
+    {
+        placeName: "Adirondack Car Wash Broad St",
+        LatLng: [{
+            lat: 43.302970,
+            lng: -73.662110
+        }],
+        placeLogo: "/img/partner-locations/76.png",
+        placeLocation: "203 Broad St. Glens Falls, NY 12801"
+    },
+    {
+        placeName: "South End Touch Free Car Wash",
+        LatLng: [{
+            lat: 42.707590,
+            lng: -73.712640
+        }],
+        placeLogo: "/img/partner-locations/120png",
+        placeLocation: "590 1st St. Watervliet, NY 12189"
+    },
+    {
+        placeName: "Mt. Ivy Car Wash",
+        LatLng: [{
+            lat: 41.188060,
+            lng: -74.036440
+        }],
+        placeLogo: "/img/partner-locations/coinless_default.png",
+        placeLocation: "11 Thiells Mt Ivy Rd Pomona, New York 10970"
+    },
+    {
+        placeName: "Bloomingdale Car Wash",
+        LatLng: [{
+            lat: 41.003140,
+            lng: -74.331050
+        }],
+        placeLogo: "/img/partner-locations/166.png",
+        placeLocation: "99-101 Main St. Bloomingdale, New Jersey 07403"
     },
 ];
 
